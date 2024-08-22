@@ -1,4 +1,4 @@
-var precincts = {
+{
 "type": "FeatureCollection",
 "name": "precincts",
 "features": [
