@@ -3,7 +3,6 @@ import requests
 from osgeo import ogr
 from git import Repo
 
-
 # URLs for KMZ files
 kmz_urls = [
     "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/conservation_easements.kmz",
@@ -70,6 +69,30 @@ def convert_kmz_to_geojson(kmz_file_path, geojson_file_path_base):
 def push_to_github(repo_path, commit_message):
     """Push the changes to GitHub."""
     repo = Repo(repo_path)
+
+    # Stash local changes if any
+    if repo.is_dirty(untracked_files=True):
+        print("Stashing local changes.")
+        repo.git.stash('save')
+
+    # Ensure we're on the main branch
+    if repo.head.is_detached:
+        print("Detached head detected, checking out the main branch.")
+        try:
+            repo.git.checkout('main')
+        except Exception as e:
+            print(f"Error checking out main branch: {e}")
+            return
+
+    # Apply the stash back after checkout
+    if repo.git.stash('list'):
+        print("Applying stashed changes.")
+        repo.git.stash('pop')
+
+    # Stage, commit, and push changes
+    repo.git.add(all=True)  # Stage all changes
+    if repo.is_dirty(untracked_files=True):  # Only commit if there are changes
+        repo = Repo(repo_path)
 
     # Stash local changes if any
     if repo.is_dirty(untracked_files=True):
