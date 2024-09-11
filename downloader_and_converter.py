@@ -117,7 +117,7 @@ def driver():
         print(f"Saved {geojson_file_name} to {output_directory}\n")
 
 # Push the files to the GitHub repository
-#driver()
+driver()
 repo_path = os.getcwd()  # Assuming the script is running in the repo's root directory
 commit_message = "Add converted GeoJSON files"
 push_to_github(repo_path, commit_message)
