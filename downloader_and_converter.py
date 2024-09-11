@@ -6,7 +6,7 @@ from git import Repo
 # URLs for KMZ files
 kmz_urls = [
     "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/conservation_easements.kmz",
-    
+    "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/ownership.kmz"
 ]
 """
 "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/control_points.kmz",
