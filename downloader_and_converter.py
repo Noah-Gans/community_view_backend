@@ -7,15 +7,17 @@ from git import Repo
 # URLs for KMZ files
 kmz_urls = [
     "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/conservation_easements.kmz",
-    "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/control_points.kmz",
+    
+]
+"""
+"https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/control_points.kmz",
     "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/ownership.kmz",
     "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/plss.kmz",
     "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/precincts.kmz",
     "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/roads.kmz",
     "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/vegetation.kmz",
     "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/zoning.kmz"
-]
-
+"""
 # Directory to save KMZ and GeoJSON files
 output_directory = "files"
 os.makedirs(output_directory, exist_ok=True)
