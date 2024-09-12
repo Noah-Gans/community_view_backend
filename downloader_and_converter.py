@@ -11,7 +11,6 @@ kmz_urls = [
     "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/plss.kmz",
     "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/precincts.kmz",
     "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/roads.kmz",
-    "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/vegetation.kmz",
     "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/zoning.kmz"
 ]
 
