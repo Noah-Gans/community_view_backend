@@ -14,15 +14,7 @@ kmz_urls = [
     "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/vegetation.kmz",
     "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/zoning.kmz"
 ]
-"""
-"https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/control_points.kmz",
-    "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/ownership.kmz",
-    "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/plss.kmz",
-    "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/precincts.kmz",
-    "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/roads.kmz",
-    "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/vegetation.kmz",
-    "https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/zoning.kmz"
-"""
+
 # Directory to save KMZ and GeoJSON files
 output_directory = "files"
 os.makedirs(output_directory, exist_ok=True)
@@ -76,61 +68,19 @@ def push_to_github(repo_path, commit_message):
     """Push the changes to GitHub."""
     repo = Repo(repo_path)
 
-    # Stash local changes if any
-    if repo.is_dirty(untracked_files=True):
-        print("Stashing local changes.")
-        repo.git.stash('save')
-
-    # Ensure we're on the main branch
-    if repo.head.is_detached:
-        print("Detached head detected, checking out the main branch.")
-        try:
-            repo.git.checkout('main')
-        except Exception as e:
-            print(f"Error checking out main branch: {e}")
-            return
-
-    # Apply the stash back after checkout
-    if repo.git.stash('list'):
-        print("Applying stashed changes.")
-        repo.git.stash('pop')
-
-    # Stage, commit, and push changes
-    repo.git.add(all=True)  # Stage all changes
-    if repo.is_dirty(untracked_files=True):  # Only commit if there are changes
-        repo = Repo(repo_path)
-
-    # Stash local changes if any
-    if repo.is_dirty(untracked_files=True):
-        print("Stashing local changes.")
-        repo.git.stash('save')
-
-    # Ensure we're on the main branch
-    if repo.head.is_detached:
-        print("Detached head detected, checking out the main branch.")
-        try:
-            repo.git.checkout('main')
-        except Exception as e:
-            print(f"Error checking out main branch: {e}")
-            return
-
-    # Apply the stash back after checkout
-    if repo.git.stash('list'):
-        print("Applying stashed changes.")
-        repo.git.stash('pop')
-
     # Stage, commit, and push changes
     repo.git.add(all=True)  # Stage all changes
     if repo.is_dirty(untracked_files=True):  # Only commit if there are changes
         repo.index.commit(commit_message)  # Commit changes
         origin = repo.remote(name='origin')
         origin.push()  # Push changes to GitHub
-        print("Changes have been pushed to GitHub.")
+        print(f"Changes have been pushed to GitHub with message: {commit_message}.")
     else:
         print("No changes to commit.")
 
-# Download and convert each file
+# Download and convert each file, and push after each file is processed
 def driver():
+    repo_path = os.getcwd()  # Assuming the script is running in the repo's root directory
     for kmz_url in kmz_urls:
         file_name = os.path.basename(kmz_url)
         kmz_file_path = os.path.join(output_directory, file_name)
@@ -147,10 +97,10 @@ def driver():
 
         print(f"Saved {geojson_file_name} to {output_directory}\n")
 
-# Push the files to the GitHub repository
+        # Push to GitHub after each file is processed
+        commit_message = f"Add converted {geojson_file_name} to repository"
+        push_to_github(repo_path, commit_message)
+
 driver()
-repo_path = os.getcwd()  # Assuming the script is running in the repo's root directory
-commit_message = "Add converted GeoJSON files"
-push_to_github(repo_path, commit_message)
 
 print("All files have been downloaded, converted, and pushed to GitHub.")
