@@ -2,6 +2,7 @@ import os
 import requests
 from osgeo import ogr
 from git import Repo
+from datetime import datetime
 
 # URLs for KMZ files
 kmz_urls = [
@@ -77,6 +78,16 @@ def push_to_github(repo_path, commit_message):
     else:
         print("No changes to commit.")
 
+def update_time_file():
+    """Update the 'update_time.txt' with the current timestamp."""
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    update_time_path = os.path.join(output_directory, 'update_time.txt')
+    
+    with open(update_time_path, 'w') as file:
+        file.write(f"Last updated on: {timestamp}\n")
+
+    print(f"Updated 'update_time.txt' with the timestamp: {timestamp}")
+
 # Download and convert each file, and push after each file is processed
 def driver():
     repo_path = os.getcwd()  # Assuming the script is running in the repo's root directory
@@ -96,9 +107,12 @@ def driver():
 
         print(f"Saved {geojson_file_name} to {output_directory}\n")
 
-        # Push to GitHub after each file is processed
-        commit_message = f"Add converted {geojson_file_name} to repository"
-        push_to_github(repo_path, commit_message)
+    # Update the time file after all files are processed
+    update_time_file()
+
+    # Push to GitHub
+    commit_message = "Update GeoJSON files and update timestamp"
+    push_to_github(repo_path, commit_message)
 
 driver()
 
