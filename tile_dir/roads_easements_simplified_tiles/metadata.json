@@ -1,0 +1,15 @@
+{
+"name": "tile_dir/roads_easements_simplified_tiles/tiles.mbtiles",
+"description": "tile_dir/roads_easements_simplified_tiles/tiles.mbtiles",
+"version": "2",
+"minzoom": "6",
+"maxzoom": "14",
+"center": "-110.753174,43.476840,14",
+"bounds": "-111.071777,43.245203,-110.170898,43.897892",
+"antimeridian_adjusted_bounds": "-111.071777,43.245203,-110.170898,43.897892",
+"type": "overlay",
+"format": "pbf",
+"generator": "tile-join v2.64.0",
+"generator_options": "tippecanoe -o tile_dir/roads_easements_simplified_tiles/tiles.mbtiles '--maximum-zoom=14' '--minimum-zoom=6' --force tile_dir/roads_easements_simplified.geojson; tile-join -e tile_dir/roads_easements_simplified_tiles --force tile_dir/roads_easements_simplified_tiles/tiles.mbtiles",
+"json": "{\"vector_layers\":[{\"id\":\"roads_easements_simplified\",\"description\":\"\",\"minzoom\":6,\"maxzoom\":14,\"fields\":{\"Name\":\"String\",\"description\":\"String\",\"extrude\":\"Number\",\"tessellate\":\"Number\",\"visibility\":\"Number\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"roads_easements_simplified\",\"count\":27132,\"geometry\":\"LineString\",\"attributeCount\":5,\"attributes\":[{\"attribute\":\"Name\",\"count\":1000,\"type\":\"string\",\"values\":[\"kml_1\",\"kml_10\",\"kml_100\",\"kml_1000\",\"kml_1001\",\"kml_1002\",\"kml_1003\",\"kml_1004\",\"kml_1005\",\"kml_1006\",\"kml_1007\",\"kml_1008\",\"kml_1009\",\"kml_101\",\"kml_1010\",\"kml_1011\",\"kml_1012\",\"kml_1013\",\"kml_1014\",\"kml_1015\",\"kml_1016\",\"kml_1017\",\"kml_1018\",\"kml_1019\",\"kml_102\",\"kml_1020\",\"kml_1021\",\"kml_1022\",\"kml_1023\",\"kml_1024\",\"kml_1025\",\"kml_1026\",\"kml_1027\",\"kml_1028\",\"kml_1029\",\"kml_103\",\"kml_1030\",\"kml_1031\",\"kml_1032\",\"kml_1033\",\"kml_1034\",\"kml_1035\",\"kml_1036\",\"kml_1037\",\"kml_1038\",\"kml_1039\",\"kml_104\",\"kml_1040\",\"kml_1041\",\"kml_1042\",\"kml_1043\",\"kml_1044\",\"kml_1045\",\"kml_1046\",\"kml_1047\",\"kml_1048\",\"kml_1049\",\"kml_105\",\"kml_1050\",\"kml_1051\",\"kml_1052\",\"kml_1053\",\"kml_1054\",\"kml_1055\",\"kml_1056\",\"kml_1057\",\"kml_1058\",\"kml_1059\",\"kml_106\",\"kml_1060\",\"kml_1061\",\"kml_1062\",\"kml_1063\",\"kml_1064\",\"kml_1065\",\"kml_1066\",\"kml_1067\",\"kml_1068\",\"kml_1069\",\"kml_107\",\"kml_1070\",\"kml_1071\",\"kml_1072\",\"kml_1073\",\"kml_1074\",\"kml_1075\",\"kml_1076\",\"kml_1077\",\"kml_1078\",\"kml_1079\",\"kml_108\",\"kml_1080\",\"kml_1081\",\"kml_1082\",\"kml_1083\",\"kml_1084\",\"kml_1085\",\"kml_1086\",\"kml_1087\",\"kml_1088\"]},{\"attribute\":\"description\",\"count\":1000,\"type\":\"string\",\"values\":[]},{\"attribute\":\"extrude\",\"count\":1,\"type\":\"number\",\"values\":[0],\"min\":0,\"max\":0},{\"attribute\":\"tessellate\",\"count\":1,\"type\":\"number\",\"values\":[-1],\"min\":-1,\"max\":-1},{\"attribute\":\"visibility\",\"count\":1,\"type\":\"number\",\"values\":[-1],\"min\":-1,\"max\":-1}]}]}}"
+}

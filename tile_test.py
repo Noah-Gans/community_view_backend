@@ -26,7 +26,7 @@ def download_file(url, output_path):
     with open(output_path, 'wb') as file:
         file.write(response.content)
 
-def convert_kmz_to_geojson(kmz_file_path, geojson_file_path_base):
+def convert_kmz_to_geojson(kmz_file_path, geojson_file_path_base, simplify_tolerance=0.001):
     driver = ogr.GetDriverByName('LIBKML')
     datasource = driver.Open(kmz_file_path, 0)  # Open the KMZ file
     if datasource is None:
@@ -43,26 +43,30 @@ def convert_kmz_to_geojson(kmz_file_path, geojson_file_path_base):
         else:
             geojson_file_path = f"{geojson_file_path_base}_{layer_name}.geojson"  # Append layer name only if different
         
-        # Simplify the GeoJSON features using ogr2ogr
-        simplified_geojson_file_path = geojson_file_path.replace('.geojson', '_simplified.geojson')
+        geojson_driver = ogr.GetDriverByName('GeoJSON')
 
-        # Use ogr2ogr to simplify the geometries and convert to polygons/multipolygons
-        subprocess.run([
-            'ogr2ogr',
-            '-f', 'GeoJSON',
-            simplified_geojson_file_path,  # Output simplified GeoJSON
-            geojson_file_path,  # Input GeoJSON
-            '-nlt', 'MULTIPOLYGON',  # Force all features to be MultiPolygon
-            '-simplify', '0.001'  # Simplify geometry (adjust value as needed)
-        ])
-
-        # After simplification, delete the original non-simplified GeoJSON
         if os.path.exists(geojson_file_path):
-            os.remove(geojson_file_path)
+            geojson_driver.DeleteDataSource(geojson_file_path)
         
-        geojson_file_path = simplified_geojson_file_path
+        geojson_datasource = geojson_driver.CreateDataSource(geojson_file_path)
+        geojson_layer = geojson_datasource.CreateLayer(layer_name, layer.GetSpatialRef(), layer.GetGeomType())
+        
+        # Copy fields (attributes)
+        geojson_layer.CreateFields(layer.schema)
+        
+        # Copy features
+        for feature in layer:
+            geojson_layer.CreateFeature(feature.Clone())
+        
+        geojson_datasource = None  # Close the GeoJSON file
+        
+        print(f"Saved {geojson_file_path} to files")
 
-        print(f"Saved simplified {geojson_file_path} to files")
+        # Perform simplification after saving the GeoJSON
+        simplified_geojson_file_path = geojson_file_path.replace('.geojson', '_simplified.geojson')
+        simplify_geojson(geojson_file_path, simplified_geojson_file_path, simplify_tolerance)
+        
+        print(f"Saved simplified {simplified_geojson_file_path} to files")
 
     datasource = None  # Close the KMZ file
     
@@ -70,6 +74,22 @@ def convert_kmz_to_geojson(kmz_file_path, geojson_file_path_base):
     if os.path.exists(kmz_file_path):
         os.remove(kmz_file_path)
         print(f"Deleted {kmz_file_path} after conversion")
+
+
+def simplify_geojson(input_geojson, output_geojson, tolerance):
+    """Use ogr2ogr to simplify a GeoJSON file."""
+    try:
+        subprocess.run([
+            'ogr2ogr',
+            '-f', 'GeoJSON',
+            output_geojson,
+            input_geojson,
+            '-simplify', str(tolerance)  # Tolerance value for simplification
+        ], check=True)
+        print(f"Simplified {input_geojson} to {output_geojson} with tolerance {tolerance}")
+    except subprocess.CalledProcessError as e:
+        print(f"Error simplifying {input_geojson}: {e}")
+
 
 def convert_geojson_to_vector_tiles(geojson_file_path, output_tile_dir, min_zoom=6, max_zoom=14):
     """Convert GeoJSON to vector tiles using Tippecanoe."""

@@ -1,0 +1,16 @@
+{
+"name": "tile_dir/precincts_simplified_tiles/tiles.mbtiles",
+"description": "tile_dir/precincts_simplified_tiles/tiles.mbtiles",
+"version": "2",
+"minzoom": "6",
+"maxzoom": "14",
+"center": "-110.401611,50.057138,14",
+"bounds": "-113.972168,49.439557,-109.951172,54.149567",
+"antimeridian_adjusted_bounds": "-113.972168,49.439557,-109.951172,54.149567",
+"type": "overlay",
+"strategies": "[{},{},{},{},{},{},{\"tiny_polygons\":1},{},{},{},{},{},{},{\"tiny_polygons\":1},{\"tiny_polygons\":1}]",
+"format": "pbf",
+"generator": "tile-join v2.64.0",
+"generator_options": "tippecanoe -o tile_dir/precincts_simplified_tiles/tiles.mbtiles '--maximum-zoom=14' '--minimum-zoom=6' --force tile_dir/precincts_simplified.geojson; tile-join -e tile_dir/precincts_simplified_tiles --force tile_dir/precincts_simplified_tiles/tiles.mbtiles",
+"json": "{\"vector_layers\":[{\"id\":\"precincts_simplified\",\"description\":\"\",\"minzoom\":6,\"maxzoom\":14,\"fields\":{\"Name\":\"String\",\"description\":\"String\",\"extrude\":\"Number\",\"tessellate\":\"Number\",\"visibility\":\"Number\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"precincts_simplified\",\"count\":72501,\"geometry\":\"Polygon\",\"attributeCount\":5,\"attributes\":[{\"attribute\":\"Name\",\"count\":18,\"type\":\"string\",\"values\":[\"kml_10\",\"kml_11\",\"kml_12\",\"kml_13\",\"kml_14\",\"kml_15\",\"kml_16\",\"kml_17\",\"kml_18\",\"kml_19\",\"kml_20\",\"kml_21\",\"kml_22\",\"kml_23\",\"kml_24\",\"kml_7\",\"kml_8\",\"kml_9\"]},{\"attribute\":\"description\",\"count\":18,\"type\":\"string\",\"values\":[]},{\"attribute\":\"extrude\",\"count\":1,\"type\":\"number\",\"values\":[0],\"min\":0,\"max\":0},{\"attribute\":\"tessellate\",\"count\":1,\"type\":\"number\",\"values\":[-1],\"min\":-1,\"max\":-1},{\"attribute\":\"visibility\",\"count\":1,\"type\":\"number\",\"values\":[-1],\"min\":-1,\"max\":-1}]}]}}"
+}

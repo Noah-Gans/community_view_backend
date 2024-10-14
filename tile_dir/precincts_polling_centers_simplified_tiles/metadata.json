@@ -1,0 +1,16 @@
+{
+"name": "tile_dir/precincts_polling_centers_simplified_tiles/tiles.mbtiles",
+"description": "tile_dir/precincts_polling_centers_simplified_tiles/tiles.mbtiles",
+"version": "2",
+"minzoom": "6",
+"maxzoom": "14",
+"center": "-110.753174,43.476840,14",
+"bounds": "-111.049805,43.357138,-110.742188,43.771094",
+"antimeridian_adjusted_bounds": "-111.049805,43.357138,-110.742188,43.771094",
+"type": "overlay",
+"strategies": "[{},{},{},{},{},{},{\"dropped_by_rate\":5},{\"dropped_by_rate\":5},{\"dropped_by_rate\":5},{\"dropped_by_rate\":4},{\"dropped_by_rate\":4},{\"dropped_by_rate\":3},{\"dropped_by_rate\":2},{\"dropped_by_rate\":1}]",
+"format": "pbf",
+"generator": "tile-join v2.64.0",
+"generator_options": "tippecanoe -o tile_dir/precincts_polling_centers_simplified_tiles/tiles.mbtiles '--maximum-zoom=14' '--minimum-zoom=6' --force tile_dir/precincts_polling_centers_simplified.geojson; tile-join -e tile_dir/precincts_polling_centers_simplified_tiles --force tile_dir/precincts_polling_centers_simplified_tiles/tiles.mbtiles",
+"json": "{\"vector_layers\":[{\"id\":\"precincts_polling_centers_simplified\",\"description\":\"\",\"minzoom\":6,\"maxzoom\":14,\"fields\":{\"Name\":\"String\",\"description\":\"String\",\"extrude\":\"Number\",\"tessellate\":\"Number\",\"visibility\":\"Number\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"precincts_polling_centers_simplified\",\"count\":31,\"geometry\":\"Point\",\"attributeCount\":5,\"attributes\":[{\"attribute\":\"Name\",\"count\":6,\"type\":\"string\",\"values\":[\"kml_1\",\"kml_2\",\"kml_3\",\"kml_4\",\"kml_5\",\"kml_6\"]},{\"attribute\":\"description\",\"count\":6,\"type\":\"string\",\"values\":[]},{\"attribute\":\"extrude\",\"count\":1,\"type\":\"number\",\"values\":[0],\"min\":0,\"max\":0},{\"attribute\":\"tessellate\",\"count\":1,\"type\":\"number\",\"values\":[-1],\"min\":-1,\"max\":-1},{\"attribute\":\"visibility\",\"count\":1,\"type\":\"number\",\"values\":[-1],\"min\":-1,\"max\":-1}]}]}}"
+}

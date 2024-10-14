@@ -1,0 +1,16 @@
+{
+"name": "tile_dir/zoning_zoverlay_simplified_tiles/tiles.mbtiles",
+"description": "tile_dir/zoning_zoverlay_simplified_tiles/tiles.mbtiles",
+"version": "2",
+"minzoom": "6",
+"maxzoom": "14",
+"center": "-110.819092,43.556510,14",
+"bounds": "-111.049805,43.229195,-110.126953,43.897892",
+"antimeridian_adjusted_bounds": "-111.049805,43.229195,-110.126953,43.897892",
+"type": "overlay",
+"strategies": "[{},{},{},{},{},{},{\"tiny_polygons\":7},{\"tiny_polygons\":3},{\"tiny_polygons\":1}]",
+"format": "pbf",
+"generator": "tile-join v2.64.0",
+"generator_options": "tippecanoe -o tile_dir/zoning_zoverlay_simplified_tiles/tiles.mbtiles '--maximum-zoom=14' '--minimum-zoom=6' --force tile_dir/zoning_zoverlay_simplified.geojson; tile-join -e tile_dir/zoning_zoverlay_simplified_tiles --force tile_dir/zoning_zoverlay_simplified_tiles/tiles.mbtiles",
+"json": "{\"vector_layers\":[{\"id\":\"zoning_zoverlay_simplified\",\"description\":\"\",\"minzoom\":6,\"maxzoom\":14,\"fields\":{\"Name\":\"String\",\"description\":\"String\",\"extrude\":\"Number\",\"tessellate\":\"Number\",\"visibility\":\"Number\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"zoning_zoverlay_simplified\",\"count\":1479,\"geometry\":\"Polygon\",\"attributeCount\":5,\"attributes\":[{\"attribute\":\"Name\",\"count\":38,\"type\":\"string\",\"values\":[\"kml_561\",\"kml_562\",\"kml_563\",\"kml_564\",\"kml_565\",\"kml_566\",\"kml_567\",\"kml_568\",\"kml_569\",\"kml_570\",\"kml_571\",\"kml_572\",\"kml_573\",\"kml_574\",\"kml_575\",\"kml_576\",\"kml_577\",\"kml_578\",\"kml_579\",\"kml_580\",\"kml_581\",\"kml_582\",\"kml_583\",\"kml_584\",\"kml_585\",\"kml_586\",\"kml_587\",\"kml_588\",\"kml_589\",\"kml_590\",\"kml_591\",\"kml_592\",\"kml_593\",\"kml_594\",\"kml_595\",\"kml_596\",\"kml_597\",\"kml_598\"]},{\"attribute\":\"description\",\"count\":38,\"type\":\"string\",\"values\":[]},{\"attribute\":\"extrude\",\"count\":1,\"type\":\"number\",\"values\":[0],\"min\":0,\"max\":0},{\"attribute\":\"tessellate\",\"count\":1,\"type\":\"number\",\"values\":[-1],\"min\":-1,\"max\":-1},{\"attribute\":\"visibility\",\"count\":1,\"type\":\"number\",\"values\":[-1],\"min\":-1,\"max\":-1}]}]}}"
+}

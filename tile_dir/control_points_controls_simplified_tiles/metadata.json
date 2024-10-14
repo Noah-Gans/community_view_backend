@@ -1,0 +1,16 @@
+{
+"name": "tile_dir/control_points_controls_simplified_tiles/tiles.mbtiles",
+"description": "tile_dir/control_points_controls_simplified_tiles/tiles.mbtiles",
+"version": "2",
+"minzoom": "6",
+"maxzoom": "14",
+"center": "-110.863037,43.460893,14",
+"bounds": "-111.115723,43.213183,-110.302734,43.897892",
+"antimeridian_adjusted_bounds": "-111.115723,43.213183,-110.302734,43.897892",
+"type": "overlay",
+"strategies": "[{},{},{},{},{},{},{\"dropped_by_rate\":413},{\"dropped_by_rate\":413},{\"dropped_by_rate\":413},{\"dropped_by_rate\":434},{\"dropped_by_rate\":450},{\"dropped_by_rate\":414},{\"dropped_by_rate\":338},{\"dropped_by_rate\":213}]",
+"format": "pbf",
+"generator": "tile-join v2.64.0",
+"generator_options": "tippecanoe -o tile_dir/control_points_controls_simplified_tiles/tiles.mbtiles '--maximum-zoom=14' '--minimum-zoom=6' --force tile_dir/control_points_controls_simplified.geojson; tile-join -e tile_dir/control_points_controls_simplified_tiles --force tile_dir/control_points_controls_simplified_tiles/tiles.mbtiles",
+"json": "{\"vector_layers\":[{\"id\":\"control_points_controls_simplified\",\"description\":\"\",\"minzoom\":6,\"maxzoom\":14,\"fields\":{\"Name\":\"String\",\"description\":\"String\",\"extrude\":\"Number\",\"tessellate\":\"Number\",\"visibility\":\"Number\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"control_points_controls_simplified\",\"count\":872,\"geometry\":\"Point\",\"attributeCount\":5,\"attributes\":[{\"attribute\":\"Name\",\"count\":414,\"type\":\"string\",\"values\":[\"kml_1\",\"kml_10\",\"kml_100\",\"kml_101\",\"kml_102\",\"kml_103\",\"kml_104\",\"kml_105\",\"kml_106\",\"kml_107\",\"kml_108\",\"kml_109\",\"kml_11\",\"kml_110\",\"kml_111\",\"kml_112\",\"kml_113\",\"kml_114\",\"kml_115\",\"kml_116\",\"kml_117\",\"kml_118\",\"kml_119\",\"kml_12\",\"kml_120\",\"kml_121\",\"kml_122\",\"kml_123\",\"kml_124\",\"kml_125\",\"kml_126\",\"kml_127\",\"kml_128\",\"kml_129\",\"kml_13\",\"kml_130\",\"kml_131\",\"kml_132\",\"kml_133\",\"kml_134\",\"kml_135\",\"kml_136\",\"kml_137\",\"kml_138\",\"kml_139\",\"kml_14\",\"kml_140\",\"kml_141\",\"kml_142\",\"kml_143\",\"kml_144\",\"kml_145\",\"kml_146\",\"kml_147\",\"kml_148\",\"kml_149\",\"kml_15\",\"kml_150\",\"kml_151\",\"kml_152\",\"kml_153\",\"kml_154\",\"kml_155\",\"kml_156\",\"kml_157\",\"kml_158\",\"kml_159\",\"kml_16\",\"kml_160\",\"kml_161\",\"kml_162\",\"kml_163\",\"kml_164\",\"kml_165\",\"kml_166\",\"kml_167\",\"kml_168\",\"kml_169\",\"kml_17\",\"kml_170\",\"kml_171\",\"kml_172\",\"kml_173\",\"kml_174\",\"kml_175\",\"kml_176\",\"kml_177\",\"kml_178\",\"kml_179\",\"kml_18\",\"kml_180\",\"kml_181\",\"kml_182\",\"kml_183\",\"kml_184\",\"kml_185\",\"kml_186\",\"kml_187\",\"kml_188\",\"kml_189\"]},{\"attribute\":\"description\",\"count\":414,\"type\":\"string\",\"values\":[]},{\"attribute\":\"extrude\",\"count\":1,\"type\":\"number\",\"values\":[0],\"min\":0,\"max\":0},{\"attribute\":\"tessellate\",\"count\":1,\"type\":\"number\",\"values\":[-1],\"min\":-1,\"max\":-1},{\"attribute\":\"visibility\",\"count\":1,\"type\":\"number\",\"values\":[-1],\"min\":-1,\"max\":-1}]}]}}"
+}
