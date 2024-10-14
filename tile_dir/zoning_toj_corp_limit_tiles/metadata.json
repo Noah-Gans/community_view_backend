@@ -1,0 +1,15 @@
+{
+"name": "tile_dir/zoning_toj_corp_limit_tiles/tiles.mbtiles",
+"description": "tile_dir/zoning_toj_corp_limit_tiles/tiles.mbtiles",
+"version": "2",
+"minzoom": "6",
+"maxzoom": "14",
+"center": "-110.797119,43.460893,14",
+"bounds": "-110.830078,43.452919,-110.720215,43.500752",
+"antimeridian_adjusted_bounds": "-110.830078,43.452919,-110.720215,43.500752",
+"type": "overlay",
+"format": "pbf",
+"generator": "tile-join v2.64.0",
+"generator_options": "tippecanoe -o tile_dir/zoning_toj_corp_limit_tiles/tiles.mbtiles '--maximum-zoom=14' '--minimum-zoom=6' --force tile_dir/zoning_toj_corp_limit.geojson; tile-join -e tile_dir/zoning_toj_corp_limit_tiles --force tile_dir/zoning_toj_corp_limit_tiles/tiles.mbtiles",
+"json": "{\"vector_layers\":[{\"id\":\"zoning_toj_corp_limit\",\"description\":\"\",\"minzoom\":6,\"maxzoom\":14,\"fields\":{\"Name\":\"String\",\"description\":\"String\",\"extrude\":\"Number\",\"tessellate\":\"Number\",\"visibility\":\"Number\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"zoning_toj_corp_limit\",\"count\":26,\"geometry\":\"Polygon\",\"attributeCount\":5,\"attributes\":[{\"attribute\":\"Name\",\"count\":1,\"type\":\"string\",\"values\":[\"Jackson\"]},{\"attribute\":\"description\",\"count\":1,\"type\":\"string\",\"values\":[]},{\"attribute\":\"extrude\",\"count\":1,\"type\":\"number\",\"values\":[0],\"min\":0,\"max\":0},{\"attribute\":\"tessellate\",\"count\":1,\"type\":\"number\",\"values\":[-1],\"min\":-1,\"max\":-1},{\"attribute\":\"visibility\",\"count\":1,\"type\":\"number\",\"values\":[-1],\"min\":-1,\"max\":-1}]}]}}"
+}
