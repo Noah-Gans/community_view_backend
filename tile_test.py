@@ -43,24 +43,26 @@ def convert_kmz_to_geojson(kmz_file_path, geojson_file_path_base):
         else:
             geojson_file_path = f"{geojson_file_path_base}_{layer_name}.geojson"  # Append layer name only if different
         
-        geojson_driver = ogr.GetDriverByName('GeoJSON')
+        # Simplify the GeoJSON features using ogr2ogr
+        simplified_geojson_file_path = geojson_file_path.replace('.geojson', '_simplified.geojson')
 
+        # Use ogr2ogr to simplify the geometries and convert to polygons/multipolygons
+        subprocess.run([
+            'ogr2ogr',
+            '-f', 'GeoJSON',
+            simplified_geojson_file_path,  # Output simplified GeoJSON
+            geojson_file_path,  # Input GeoJSON
+            '-nlt', 'MULTIPOLYGON',  # Force all features to be MultiPolygon
+            '-simplify', '0.001'  # Simplify geometry (adjust value as needed)
+        ])
+
+        # After simplification, delete the original non-simplified GeoJSON
         if os.path.exists(geojson_file_path):
-            geojson_driver.DeleteDataSource(geojson_file_path)
+            os.remove(geojson_file_path)
         
-        geojson_datasource = geojson_driver.CreateDataSource(geojson_file_path)
-        geojson_layer = geojson_datasource.CreateLayer(layer_name, layer.GetSpatialRef(), layer.GetGeomType())
-        
-        # Copy fields (attributes)
-        geojson_layer.CreateFields(layer.schema)
-        
-        # Copy features
-        for feature in layer:
-            geojson_layer.CreateFeature(feature.Clone())
-        
-        geojson_datasource = None  # Close the GeoJSON file
-        
-        print(f"Saved {geojson_file_path} to files")
+        geojson_file_path = simplified_geojson_file_path
+
+        print(f"Saved simplified {geojson_file_path} to files")
 
     datasource = None  # Close the KMZ file
     
