@@ -1,2 +1,4 @@
 property_info_api/
 legacy_code_work/
+*.geojson
+*.kmz
