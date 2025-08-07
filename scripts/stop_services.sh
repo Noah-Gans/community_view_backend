@@ -18,48 +18,59 @@ echo -e "${YELLOW}🛑 Stopping Community View Backend Services${NC}"
 # Change to project root
 cd "$PROJECT_ROOT"
 
-# Stop Search API
-if [ -f "logs/search_api.pid" ]; then
-    SEARCH_API_PID=$(cat logs/search_api.pid)
-    if kill -0 "$SEARCH_API_PID" 2>/dev/null; then
-        echo -e "${YELLOW}🔍 Stopping Search API (PID: $SEARCH_API_PID)...${NC}"
-        kill "$SEARCH_API_PID"
-        sleep 2
-        if kill -0 "$SEARCH_API_PID" 2>/dev/null; then
-            echo -e "${YELLOW}⚠️  Force killing Search API...${NC}"
-            kill -9 "$SEARCH_API_PID"
+# Function to stop a service
+stop_service() {
+    local name=$1
+    local pid_file=$2
+    local process_pattern=$3
+    
+    # First try using PID file
+    if [ -f "$pid_file" ]; then
+        local PID=$(cat "$pid_file")
+        if kill -0 "$PID" 2>/dev/null; then
+            echo -e "${YELLOW}🔄 Stopping $name (PID: $PID)...${NC}"
+            kill "$PID"
+            sleep 2
+            if kill -0 "$PID" 2>/dev/null; then
+                echo -e "${YELLOW}⚠️  Force killing $name...${NC}"
+                kill -9 "$PID"
+            fi
         fi
-        echo -e "${GREEN}✅ Search API stopped${NC}"
-    else
-        echo -e "${YELLOW}⚠️  Search API was not running${NC}"
+        rm -f "$pid_file"
     fi
-    rm -f logs/search_api.pid
-else
-    echo -e "${YELLOW}⚠️  Search API PID file not found${NC}"
-fi
+    
+    # Then try killing by pattern
+    if pgrep -f "$process_pattern" > /dev/null; then
+        echo -e "${YELLOW}🔄 Stopping remaining $name processes...${NC}"
+        pkill -f "$process_pattern"
+        sleep 2
+        if pgrep -f "$process_pattern" > /dev/null; then
+            echo -e "${YELLOW}⚠️  Force killing remaining $name processes...${NC}"
+            pkill -9 -f "$process_pattern"
+        fi
+    fi
+    
+    # Verify service is stopped
+    if ! pgrep -f "$process_pattern" > /dev/null; then
+        echo -e "${GREEN}✅ $name stopped${NC}"
+        return 0
+    else
+        echo -e "${RED}❌ Failed to stop $name${NC}"
+        return 1
+    fi
+}
+
+# Stop Search API
+stop_service "Search API" "logs/search_api.pid" "python.*app.py"
 
 # Stop Tegola
-if [ -f "logs/tegola.pid" ]; then
-    TEGOLA_PID=$(cat logs/tegola.pid)
-    if kill -0 "$TEGOLA_PID" 2>/dev/null; then
-        echo -e "${YELLOW}🗺️  Stopping Tegola (PID: $TEGOLA_PID)...${NC}"
-        kill "$TEGOLA_PID"
-        sleep 2
-        if kill -0 "$TEGOLA_PID" 2>/dev/null; then
-            echo -e "${YELLOW}⚠️  Force killing Tegola...${NC}"
-            kill -9 "$TEGOLA_PID"
-        fi
-        echo -e "${GREEN}✅ Tegola stopped${NC}"
-    else
-        echo -e "${YELLOW}⚠️  Tegola was not running${NC}"
-    fi
-    rm -f logs/tegola.pid
+stop_service "Tegola" "logs/tegola.pid" "tegola serve"
+
+# Final verification
+if pgrep -f "python.*app.py|tegola serve" > /dev/null; then
+    echo -e "${RED}❌ Some services are still running${NC}"
+    exit 1
 else
-    echo -e "${YELLOW}⚠️  Tegola PID file not found${NC}"
-fi
-
-# Kill any remaining processes by name
-pkill -f "python.*start_api" 2>/dev/null || true
-pkill -f "tegola serve" 2>/dev/null || true
-
-echo -e "${GREEN}🎉 All services stopped${NC}" 
+    echo -e "${GREEN}🎉 All services stopped successfully${NC}"
+    exit 0
+fi 
