@@ -1,4 +1,32 @@
-property_info_api/
-legacy_code_work/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Logs and PIDs
+logs/*.log
+logs/*.pid
+logs/community_view_manager_*.log
+
+# Generated files
+search_api/search_index.json
+
+# Data files
+tile_processing/*_data_files/
+tile_processing/geojsons_for_db_upload/
 *.geojson
 *.kmz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
