@@ -15,7 +15,7 @@
     "config_path": "tegola_config.toml"
   },
   "scheduling": {
-    "data_update_time": "22:30",
+    "data_update_time": "22:40",
     "timezone": "UTC"
   },
   "counties": [
