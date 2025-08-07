@@ -15,6 +15,7 @@ uri = "postgres://noah:fatcat202@localhost:5432/parcel_data?sslmode=disable"
   name = "ownership"
   geometry_type = "MultiPolygon"
     sql = """
+# Original version with all properties
 SELECT
   ST_AsMVTGeom(
     ST_SimplifyPreserveTopology(
@@ -28,22 +29,25 @@ SELECT
     ),
     !BBOX!, 4096, 256, false
   ) AS geom,
-  CASE
-    WHEN !ZOOM! < 10 THEN 
-      jsonb_build_object(
-        'id', id,
-        'county', county
-      )
-    ELSE
-      jsonb_build_object(
-        'id', id,
-        'owner_name', owner_name,
-        'physical_address', physical_address,
-        'county', county,
-        'acreage', acreage,
-        'property_value', property_value
-      )
-  END AS properties
+  id,
+  global_parcel_uid,
+  county_parcel_id_num,
+  owner_name,
+  physical_address,
+  mailing_address,
+  acreage,
+  property_value,
+  land_type_description,
+  deed_reference,
+  owner_city,
+  owner_state,
+  owner_zip,
+  property_details_link,
+  tax_details_link,
+  clerk_records_link,
+  address,
+  county,
+  state
 FROM parcels
 WHERE ST_Intersects(
   ST_Transform(geometry, 3857),
