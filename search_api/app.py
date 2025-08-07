@@ -1,13 +1,21 @@
+#!/usr/bin/env python3
+
+import os
+import sys
+from pathlib import Path
+
+# Add the search_api directory to the Python path
+sys.path.append(str(Path(__file__).parent))
+
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Dict, Any, Optional
 import logging
-import os
 from datetime import datetime
 
-from .search_engine import SearchEngine
-from .search_file_generator import create_search_index
+from search_engine import SearchEngine
+from search_file_generator import create_search_index
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
