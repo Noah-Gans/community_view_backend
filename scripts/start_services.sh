@@ -21,6 +21,9 @@ echo "Project root: $PROJECT_ROOT"
 # Change to project root
 cd "$PROJECT_ROOT"
 
+# Create logs directory if it doesn't exist
+mkdir -p logs
+
 # Activate virtual environment
 if [ -f "venv/bin/activate" ]; then
     echo -e "${YELLOW}📦 Activating virtual environment...${NC}"
@@ -37,16 +40,19 @@ SEARCH_API_PID=$!
 echo "Search API PID: $SEARCH_API_PID"
 
 # Wait for Search API to start
-sleep 5
-
-# Check if Search API is running
-if curl -s http://localhost:8000/health > /dev/null; then
-    echo -e "${GREEN}✅ Search API is running${NC}"
-else
-    echo -e "${RED}❌ Search API failed to start${NC}"
-    kill $SEARCH_API_PID 2>/dev/null || true
-    exit 1
-fi
+echo "Waiting for Search API to start..."
+for i in {1..30}; do
+    if curl -s http://localhost:8000/health > /dev/null; then
+        echo -e "${GREEN}✅ Search API is running${NC}"
+        break
+    fi
+    if [ $i -eq 30 ]; then
+        echo -e "${RED}❌ Search API failed to start${NC}"
+        kill $SEARCH_API_PID 2>/dev/null || true
+        exit 1
+    fi
+    sleep 1
+done
 
 # Start Tegola Server
 echo -e "${YELLOW}🗺️ Starting Tegola Server...${NC}"
@@ -56,7 +62,8 @@ TEGOLA_BIN=""
 if [ -f "./tegola" ]; then
     TEGOLA_BIN="./tegola"
 elif command -v tegola >/dev/null 2>&1; then
-    TEGOLA_BIN="tegola"
+    TEGOLA_BIN=$(which tegola)
+    echo "Found Tegola at: $TEGOLA_BIN"
 else
     echo -e "${RED}❌ Tegola binary not found. Please install Tegola first.${NC}"
     echo "Download from: https://github.com/go-spatial/tegola/releases"
@@ -65,24 +72,28 @@ else
 fi
 
 # Start Tegola with the found binary
+echo "Starting Tegola using: $TEGOLA_BIN"
 nohup $TEGOLA_BIN serve --config tegola_config.toml > logs/tegola.log 2>&1 &
 TEGOLA_PID=$!
 echo "Tegola PID: $TEGOLA_PID"
 
 # Wait for Tegola to start
-sleep 5
-
-# Check if Tegola is running
-if curl -s http://localhost:8081/capabilities > /dev/null; then
-    echo -e "${GREEN}✅ Tegola Server is running${NC}"
-else
-    echo -e "${RED}❌ Tegola Server failed to start${NC}"
-    kill $TEGOLA_PID 2>/dev/null || true
-    exit 1
-fi
+echo "Waiting for Tegola to start..."
+for i in {1..30}; do
+    if curl -s http://localhost:8081/capabilities > /dev/null; then
+        echo -e "${GREEN}✅ Tegola Server is running${NC}"
+        break
+    fi
+    if [ $i -eq 30 ]; then
+        echo -e "${RED}❌ Tegola Server failed to start${NC}"
+        tail -n 20 logs/tegola.log
+        kill $TEGOLA_PID 2>/dev/null || true
+        exit 1
+    fi
+    sleep 1
+done
 
 # Save PIDs for later management
-mkdir -p logs
 echo "$SEARCH_API_PID" > logs/search_api.pid
 echo "$TEGOLA_PID" > logs/tegola.pid
 
@@ -91,6 +102,7 @@ echo "Search API: http://localhost:8000"
 echo "Tegola: http://localhost:8081"
 echo ""
 echo "To stop services, run: scripts/stop_services.sh"
+echo "Check logs/ directory for service output"
 
-# Exit immediately after starting services
+# Exit successfully
 exit 0 
