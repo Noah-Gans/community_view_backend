@@ -600,24 +600,26 @@ class CommunityViewManager:
         """
         self.logger.info("🤖 Starting Community View Backend Daemon")
         
-        # 📅 SCHEDULE DAILY DATA UPDATE
-        update_time = self.config["scheduling"]["data_update_time"]  # "02:00" from config
+        # Start services first
+        if not self.start_services():
+            self.logger.error("❌ Failed to start services")
+            return
+            
+        # Schedule tasks
+        update_time = self.config["scheduling"]["data_update_time"]
         schedule.every().day.at(update_time).do(self._scheduled_data_update)
-        
-        # 📅 SCHEDULE HEALTH CHECKS
         schedule.every(15).minutes.do(self._scheduled_health_check)
         
         self.logger.info(f"📅 Scheduled daily data update at {update_time}")
         self.logger.info("📅 Scheduled health checks every 15 minutes")
         
-        # 🏥 RUN INITIAL HEALTH CHECK
+        # Run initial health check
         self._scheduled_health_check()
         
         try:
-            # ♾️ INFINITE LOOP - CHECK FOR SCHEDULED TASKS
             while True:
-                schedule.run_pending()  # Run any due scheduled tasks
-                time.sleep(60)          # Check every minute
+                schedule.run_pending()
+                time.sleep(60)
         except KeyboardInterrupt:
             self.logger.info("🛑 Daemon stopped by user")
         except Exception as e:
