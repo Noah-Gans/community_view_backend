@@ -336,20 +336,24 @@ class CommunityViewManager:
         try:
             import psycopg2
             db_config = self.config["database"]
+            self.logger.info(f"Attempting database connection to {db_config['host']}:{db_config['port']} as {db_config['user']}")
             conn = psycopg2.connect(
                 host=db_config["host"],
                 port=db_config["port"],
                 database=db_config["database"],
                 user=db_config["user"],
+                password=db_config.get("password", ""),  # Add password support
                 connect_timeout=5  # Quick timeout
             )
             conn.close()
+            self.logger.info("Database connection successful!")
             return True
-        except:
-            return False  # Any error = database not healthy
+        except Exception as e:
+            self.logger.error(f"Database connection failed: {str(e)}")
+            return False
 
 # ═══════════════════════════════════════════════════════════════
-# 🔄 DATA PROCESSING PIPELINE (The Big Daily Update)
+# �� DATA PROCESSING PIPELINE (The Big Daily Update)
 # ═══════════════════════════════════════════════════════════════
 
     def run_data_update_cycle(self) -> Dict[str, any]:
