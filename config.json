@@ -1,0 +1,49 @@
+{
+  "general": {
+    "environment": "production",
+    "log_level": "INFO",
+    "notification_email": "noahgans@tetoncountygis.com"
+  },
+  "search_api": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "reload": false
+  },
+  "tegola": {
+    "host": "0.0.0.0", 
+    "port": 8081,
+    "config_path": "tegola_config.toml"
+  },
+  "scheduling": {
+    "data_update_time": "02:00",
+    "timezone": "America/Denver"
+  },
+  "counties": [
+    "fremont_county_wy",
+    "teton_county_id", 
+    "sublette_county_wy",
+    "lincoln_county_wy",
+    "teton_county_wy"
+  ],
+  "paths": {
+    "tile_cycle_dir": "tile_cycle",
+    "search_api_dir": "search_api",
+    "venv_path": "venv",
+    "log_dir": "logs"
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "community_view",
+    "user": "postgres"
+  },
+  "gcs": {
+    "bucket_name": "your-gcs-bucket",
+    "upload_enabled": true
+  },
+  "health_checks": {
+    "search_api_endpoint": "http://localhost:8000/health",
+    "tegola_endpoint": "http://localhost:8081/maps",
+    "database_check": true
+  }
+} 

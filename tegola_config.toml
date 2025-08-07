@@ -1,0 +1,63 @@
+[webserver]
+port = ":8081"
+
+[[providers]]
+name = "postgis_mvt"
+type = "mvt_postgis"
+uri = "postgres://noah:fatcat202@localhost:5432/parcel_data?sslmode=disable"
+
+  [[providers.layers]]
+  name = "ownership"
+  geometry_type = "MultiPolygon"
+    sql = """
+SELECT
+  ST_AsMVTGeom(
+    ST_SimplifyPreserveTopology(
+      ST_Transform(geometry, 3857),
+      CASE
+        WHEN !ZOOM! < 7 THEN 1000
+        WHEN !ZOOM! < 9 THEN 300
+        WHEN !ZOOM! < 11 THEN 50
+        ELSE 0
+        END
+    ),
+    !BBOX!, 4096, 256, false
+  ) AS geom,
+  id,
+  global_parcel_uid,
+  county_parcel_id_num,
+  owner_name,
+  physical_address,
+  mailing_address,
+  acreage,
+  property_value,
+  land_type_description,
+  deed_reference,
+  owner_city,
+  owner_state,
+  owner_zip,
+  property_details_link,
+  tax_details_link,
+  clerk_records_link,
+  address,
+  county,
+  state
+FROM parcels
+WHERE ST_Intersects(
+  ST_Transform(geometry, 3857),
+  ST_TileEnvelope(!ZOOM!, !X!, !Y!)
+)
+"""
+
+
+[[maps]]
+name = "ownership_map"
+bounds = [-179.0, 17.0, -64.0, 72.0]
+
+  [[maps.layers]]
+  provider_layer = "postgis_mvt.ownership"
+  min_zoom = 6
+  max_zoom = 18
+
+
+
