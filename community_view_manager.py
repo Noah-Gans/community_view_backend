@@ -400,16 +400,16 @@ class CommunityViewManager:
             
             try:
                 # 🚀 BUILD COMMAND
-                # This runs: python tile_cycle/ownership_pipeline.py --all --migrate-to-postgis
+                # This runs: python tile_processing/ownership_pipeline.py --all --migrate-to-postgis
                 cmd = [
                     "bash", "-c", 
-                    f"source {venv_activate} && python tile_cycle/ownership_pipeline.py --all --migrate-to-postgis"
+                    f"source {venv_activate} && python tile_processing/ownership_pipeline.py --all --migrate-to-postgis"
                 ]
                 
-                self.logger.info("🔄 Running: tile_cycle/ownership_pipeline.py --all --migrate-to-postgis")
+                self.logger.info("🔄 Running: tile_processing/ownership_pipeline.py --all --migrate-to-postgis")
                 
                 # 📺 RUN WITH REAL-TIME OUTPUT STREAMING
-                # This lets you see what tile_cycle is doing as it happens
+                # This lets you see what tile_processing is doing as it happens
                 process = subprocess.Popen(
                     cmd,
                     cwd=self.project_root,

@@ -4227,3 +4227,821 @@ To stop services, run: scripts/stop_services.sh
 2025-08-06 18:15:52,091 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
 2025-08-06 18:30:52,145 - __main__ - INFO - 🏥 Running scheduled health check...
 2025-08-06 18:30:52,185 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 18:45:52,263 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 18:45:52,371 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 19:00:52,433 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 19:00:52,477 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 19:15:52,534 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 19:15:52,620 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 19:30:52,680 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 19:30:52,709 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 19:45:52,762 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 19:45:52,846 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 20:00:52,926 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 20:00:52,956 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 20:15:53,031 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 20:15:53,113 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 20:30:53,263 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 20:30:53,305 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 20:45:53,358 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 20:45:53,444 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 21:00:53,503 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 21:00:53,536 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 21:15:53,585 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 21:15:53,669 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 21:30:53,673 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 21:30:53,706 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 21:45:53,723 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 21:45:53,796 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 22:01:49,122 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 22:01:49,171 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 22:16:49,259 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 22:16:49,349 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 22:31:49,377 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 22:31:49,419 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 22:46:49,455 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 22:46:49,562 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 23:01:49,605 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 23:01:49,649 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 23:16:49,685 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 23:16:49,773 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 23:31:49,826 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 23:31:49,872 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-06 23:46:49,909 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-06 23:46:50,004 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-07 00:01:50,110 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-07 00:01:50,152 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-07 00:43:11,429 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-07 00:43:11,470 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-07 01:29:12,873 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-07 01:29:12,914 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-07 02:07:33,438 - __main__ - INFO - 🏥 Running scheduled health check...
+2025-08-07 02:07:33,473 - __main__ - INFO - ✅ Health check completed: {'search_api': True, 'tegola': False, 'database': False}
+2025-08-07 02:07:33,474 - __main__ - INFO - 🔄 Running scheduled data update...
+2025-08-07 02:07:33,474 - __main__ - INFO - 🔄 Starting data update cycle
+2025-08-07 02:07:33,475 - __main__ - INFO - 🏁 Starting ownership pipeline for all counties
+2025-08-07 02:07:33,475 - __main__ - INFO - 🔄 Running: tile_cycle/ownership_pipeline.py --all --migrate-to-postgis
+2025-08-07 02:07:38,044 - __main__ - INFO - 📦 /Users/noahgans/Desktop/comunity_view_backend/venv/lib/python3.11/site-packages/osgeo/ogr.py:601: FutureWarning: Neither ogr.UseExceptions() nor ogr.DontUseExceptions() has been explicitly called. In GDAL 4.0, exceptions will be enabled by default.
+2025-08-07 02:07:38,045 - __main__ - INFO - 📦 warnings.warn(
+2025-08-07 02:07:45,453 - __main__ - INFO - 📦 🏁 Starting pipeline for 5 counties: teton_county_wy, lincoln_county_wy, sublette_county_wy, teton_county_id, fremont_county_wy
+2025-08-07 02:07:45,454 - __main__ - INFO - 📦 
+2025-08-07 02:07:45,454 - __main__ - INFO - 📦 ==================================================
+2025-08-07 02:07:45,454 - __main__ - INFO - 📦 Processing teton_county_wy...
+2025-08-07 02:07:45,454 - __main__ - INFO - 📦 ==================================================
+2025-08-07 02:07:45,454 - __main__ - INFO - 📦 🏁 Starting pipeline for teton_county_wy
+2025-08-07 02:07:45,454 - __main__ - INFO - 📦 📋 Configured teton_county_wy ownership attributes:
+2025-08-07 02:07:45,454 - __main__ - INFO - 📦 Parcel download type: kmz
+2025-08-07 02:07:45,454 - __main__ - INFO - 📦 Parcel URL: https://s3.us-west-2.amazonaws.com/tetoncountywy/gis/download/kmz/ownership.kmz
+2025-08-07 02:07:45,454 - __main__ - INFO - 📦 Address download type: None
+2025-08-07 02:07:45,454 - __main__ - INFO - 📦 Address URL: None
+2025-08-07 02:07:45,455 - __main__ - INFO - 📦 Needs merging: False
+2025-08-07 02:07:45,455 - __main__ - INFO - 📦 Data type: ownership
+2025-08-07 02:07:45,455 - __main__ - INFO - 📦 🚀 Processing ownership for teton_county_wy
+2025-08-07 02:07:45,455 - __main__ - INFO - 📦 📥 Collecting ownership data for teton_county_wy
+2025-08-07 02:07:45,455 - __main__ - INFO - 📦 📦 Downloading parcel data using kmz
+2025-08-07 02:07:45,455 - __main__ - INFO - 📦 ✅ Downloaded file to /Users/noahgans/Desktop/comunity_view_backend/tile_cycle/teton_county_wy_data_files/teton_county_wy_ownership_parcel.kmz
+2025-08-07 02:07:45,455 - __main__ - INFO - 📦 ✅ Saved /Users/noahgans/Desktop/comunity_view_backend/tile_cycle/teton_county_wy_data_files/teton_county_wy_ownership_parcel_address.geojson
+2025-08-07 02:07:45,455 - __main__ - INFO - 📦 ✅ Saved /Users/noahgans/Desktop/comunity_view_backend/tile_cycle/teton_county_wy_data_files/teton_county_wy_ownership_parcel_ownership.geojson
+2025-08-07 02:07:45,455 - __main__ - INFO - 📦 🗑 Deleted KMZ /Users/noahgans/Desktop/comunity_view_backend/tile_cycle/teton_county_wy_data_files/teton_county_wy_ownership_parcel.kmz
+2025-08-07 02:07:45,455 - __main__ - INFO - 📦 📝 No address data download needed for teton_county_wy
+2025-08-07 02:07:45,455 - __main__ - INFO - 📦 🔄 Renamed teton_county_wy_ownership_parcel_address.geojson → teton_county_wy_ownership_address.geojson
+2025-08-07 02:07:45,455 - __main__ - INFO - 📦 🔄 Renamed teton_county_wy_ownership_parcel_ownership.geojson → teton_county_wy_ownership_parcel.geojson
+2025-08-07 02:07:45,455 - __main__ - INFO - 📦 🗑 Removed address file: /Users/noahgans/Desktop/comunity_view_backend/tile_cycle/teton_county_wy_data_files/teton_county_wy_ownership_address.geojson
+2025-08-07 02:07:45,455 - __main__ - INFO - 📦 🔄 Renamed teton_county_wy_ownership_parcel.geojson → teton_county_wy_ownership_complete.geojson
+2025-08-07 02:07:45,455 - __main__ - INFO - 📦 🔄 Parsing descriptions for Teton County...
+2025-08-07 02:07:45,455 - __main__ - INFO - 📦 
+2025-08-07 02:07:45,554 - __main__ - INFO - 📦 Parsing descriptions:   0%|          | 0/16340 [00:00<?, ?it/s]
+2025-08-07 02:07:45,658 - __main__ - INFO - 📦 Parsing descriptions:   0%|          | 27/16340 [00:00<01:00, 269.02it/s]
+2025-08-07 02:07:45,760 - __main__ - INFO - 📦 Parsing descriptions:   0%|          | 55/16340 [00:00<01:00, 269.26it/s]
+2025-08-07 02:07:45,863 - __main__ - INFO - 📦 Parsing descriptions:   1%|          | 84/16340 [00:00<00:58, 275.98it/s]
+2025-08-07 02:07:45,967 - __main__ - INFO - 📦 Parsing descriptions:   1%|          | 113/16340 [00:00<00:58, 278.48it/s]
+2025-08-07 02:07:46,067 - __main__ - INFO - 📦 Parsing descriptions:   1%|          | 141/16340 [00:00<00:58, 274.81it/s]
+2025-08-07 02:07:46,169 - __main__ - INFO - 📦 Parsing descriptions:   1%|          | 170/16340 [00:00<00:57, 279.86it/s]
+2025-08-07 02:07:46,270 - __main__ - INFO - 📦 Parsing descriptions:   1%|          | 199/16340 [00:00<00:57, 281.95it/s]
+2025-08-07 02:07:46,370 - __main__ - INFO - 📦 Parsing descriptions:   1%|▏         | 229/16340 [00:00<00:56, 286.25it/s]
+2025-08-07 02:07:46,473 - __main__ - INFO - 📦 Parsing descriptions:   2%|▏         | 258/16340 [00:00<00:55, 287.36it/s]
+2025-08-07 02:07:46,575 - __main__ - INFO - 📦 Parsing descriptions:   2%|▏         | 287/16340 [00:01<00:56, 285.62it/s]
+2025-08-07 02:07:46,678 - __main__ - INFO - 📦 Parsing descriptions:   2%|▏         | 316/16340 [00:01<00:56, 285.30it/s]
+2025-08-07 02:07:46,779 - __main__ - INFO - 📦 Parsing descriptions:   2%|▏         | 345/16340 [00:01<00:56, 283.98it/s]
+2025-08-07 02:07:46,882 - __main__ - INFO - 📦 Parsing descriptions:   2%|▏         | 374/16340 [00:01<00:55, 285.17it/s]
+2025-08-07 02:07:46,982 - __main__ - INFO - 📦 Parsing descriptions:   2%|▏         | 404/16340 [00:01<00:55, 286.87it/s]
+2025-08-07 02:07:47,083 - __main__ - INFO - 📦 Parsing descriptions:   3%|▎         | 433/16340 [00:01<00:55, 287.49it/s]
+2025-08-07 02:07:47,183 - __main__ - INFO - 📦 Parsing descriptions:   3%|▎         | 462/16340 [00:01<00:55, 287.72it/s]
+2025-08-07 02:07:47,286 - __main__ - INFO - 📦 Parsing descriptions:   3%|▎         | 491/16340 [00:01<00:55, 288.05it/s]
+2025-08-07 02:07:47,389 - __main__ - INFO - 📦 Parsing descriptions:   3%|▎         | 520/16340 [00:01<00:55, 286.59it/s]
+2025-08-07 02:07:47,492 - __main__ - INFO - 📦 Parsing descriptions:   3%|▎         | 550/16340 [00:01<00:54, 287.49it/s]
+2025-08-07 02:07:47,593 - __main__ - INFO - 📦 Parsing descriptions:   4%|▎         | 579/16340 [00:02<00:55, 285.76it/s]
+2025-08-07 02:07:47,696 - __main__ - INFO - 📦 Parsing descriptions:   4%|▎         | 608/16340 [00:02<00:54, 286.37it/s]
+2025-08-07 02:07:47,799 - __main__ - INFO - 📦 Parsing descriptions:   4%|▍         | 637/16340 [00:02<00:55, 285.06it/s]
+2025-08-07 02:07:47,902 - __main__ - INFO - 📦 Parsing descriptions:   4%|▍         | 666/16340 [00:02<00:55, 284.13it/s]
+2025-08-07 02:07:48,002 - __main__ - INFO - 📦 Parsing descriptions:   4%|▍         | 695/16340 [00:02<00:55, 282.82it/s]
+2025-08-07 02:07:48,104 - __main__ - INFO - 📦 Parsing descriptions:   4%|▍         | 724/16340 [00:02<00:54, 284.91it/s]
+2025-08-07 02:07:48,207 - __main__ - INFO - 📦 Parsing descriptions:   5%|▍         | 753/16340 [00:02<00:54, 284.93it/s]
+2025-08-07 02:07:48,309 - __main__ - INFO - 📦 Parsing descriptions:   5%|▍         | 782/16340 [00:02<00:54, 283.93it/s]
+2025-08-07 02:07:48,413 - __main__ - INFO - 📦 Parsing descriptions:   5%|▍         | 811/16340 [00:02<00:54, 284.25it/s]
+2025-08-07 02:07:48,518 - __main__ - INFO - 📦 Parsing descriptions:   5%|▌         | 840/16340 [00:02<00:54, 282.56it/s]
+2025-08-07 02:07:48,620 - __main__ - INFO - 📦 Parsing descriptions:   5%|▌         | 869/16340 [00:03<00:55, 280.72it/s]
+2025-08-07 02:07:48,722 - __main__ - INFO - 📦 Parsing descriptions:   5%|▌         | 898/16340 [00:03<00:54, 281.39it/s]
+2025-08-07 02:07:48,823 - __main__ - INFO - 📦 Parsing descriptions:   6%|▌         | 927/16340 [00:03<00:54, 282.91it/s]
+2025-08-07 02:07:48,925 - __main__ - INFO - 📦 Parsing descriptions:   6%|▌         | 956/16340 [00:03<00:54, 283.49it/s]
+2025-08-07 02:07:49,145 - __main__ - INFO - 📦 Parsing descriptions:   6%|▌         | 985/16340 [00:03<00:54, 283.77it/s]
+2025-08-07 02:07:49,248 - __main__ - INFO - 📦 Parsing descriptions:   6%|▌         | 1014/16340 [00:03<01:12, 211.24it/s]
+2025-08-07 02:07:49,350 - __main__ - INFO - 📦 Parsing descriptions:   6%|▋         | 1044/16340 [00:03<01:06, 230.61it/s]
+2025-08-07 02:07:49,453 - __main__ - INFO - 📦 Parsing descriptions:   7%|▋         | 1074/16340 [00:03<01:01, 246.61it/s]
+2025-08-07 02:07:49,554 - __main__ - INFO - 📦 Parsing descriptions:   7%|▋         | 1104/16340 [00:03<00:58, 258.55it/s]
+2025-08-07 02:07:49,657 - __main__ - INFO - 📦 Parsing descriptions:   7%|▋         | 1133/16340 [00:04<00:57, 266.69it/s]
+2025-08-07 02:07:49,853 - __main__ - INFO - 📦 Parsing descriptions:   7%|▋         | 1163/16340 [00:04<00:55, 273.38it/s]
+2025-08-07 02:07:49,998 - __main__ - INFO - 📦 Parsing descriptions:   7%|▋         | 1192/16340 [00:04<01:09, 219.44it/s]
+2025-08-07 02:07:50,100 - __main__ - INFO - 📦 Parsing descriptions:   7%|▋         | 1217/16340 [00:04<01:14, 204.04it/s]
+2025-08-07 02:07:50,200 - __main__ - INFO - 📦 Parsing descriptions:   8%|▊         | 1245/16340 [00:04<01:08, 221.10it/s]
+2025-08-07 02:07:50,302 - __main__ - INFO - 📦 Parsing descriptions:   8%|▊         | 1274/16340 [00:04<01:03, 238.21it/s]
+2025-08-07 02:07:50,403 - __main__ - INFO - 📦 Parsing descriptions:   8%|▊         | 1303/16340 [00:04<01:00, 250.58it/s]
+2025-08-07 02:07:50,504 - __main__ - INFO - 📦 Parsing descriptions:   8%|▊         | 1332/16340 [00:04<00:57, 260.69it/s]
+2025-08-07 02:07:50,606 - __main__ - INFO - 📦 Parsing descriptions:   8%|▊         | 1361/16340 [00:05<00:55, 268.18it/s]
+2025-08-07 02:07:50,707 - __main__ - INFO - 📦 Parsing descriptions:   9%|▊         | 1390/16340 [00:05<00:54, 272.71it/s]
+2025-08-07 02:07:50,817 - __main__ - INFO - 📦 Parsing descriptions:   9%|▊         | 1419/16340 [00:05<00:53, 277.01it/s]
+2025-08-07 02:07:50,918 - __main__ - INFO - 📦 Parsing descriptions:   9%|▉         | 1448/16340 [00:05<00:54, 272.94it/s]
+2025-08-07 02:07:51,020 - __main__ - INFO - 📦 Parsing descriptions:   9%|▉         | 1476/16340 [00:05<00:54, 273.77it/s]
+2025-08-07 02:07:51,124 - __main__ - INFO - 📦 Parsing descriptions:   9%|▉         | 1505/16340 [00:05<00:53, 276.91it/s]
+2025-08-07 02:07:51,226 - __main__ - INFO - 📦 Parsing descriptions:   9%|▉         | 1535/16340 [00:05<00:52, 281.10it/s]
+2025-08-07 02:07:51,327 - __main__ - INFO - 📦 Parsing descriptions:  10%|▉         | 1564/16340 [00:05<00:52, 282.02it/s]
+2025-08-07 02:07:51,427 - __main__ - INFO - 📦 Parsing descriptions:  10%|▉         | 1593/16340 [00:05<00:52, 283.18it/s]
+2025-08-07 02:07:51,531 - __main__ - INFO - 📦 Parsing descriptions:  10%|▉         | 1622/16340 [00:05<00:51, 285.07it/s]
+2025-08-07 02:07:51,631 - __main__ - INFO - 📦 Parsing descriptions:  10%|█         | 1651/16340 [00:06<00:51, 283.49it/s]
+2025-08-07 02:07:51,734 - __main__ - INFO - 📦 Parsing descriptions:  10%|█         | 1680/16340 [00:06<00:51, 285.19it/s]
+2025-08-07 02:07:51,844 - __main__ - INFO - 📦 Parsing descriptions:  10%|█         | 1710/16340 [00:06<00:50, 287.21it/s]
+2025-08-07 02:07:51,950 - __main__ - INFO - 📦 Parsing descriptions:  11%|█         | 1739/16340 [00:06<00:52, 279.60it/s]
+2025-08-07 02:07:52,052 - __main__ - INFO - 📦 Parsing descriptions:  11%|█         | 1768/16340 [00:06<00:52, 277.72it/s]
+2025-08-07 02:07:52,154 - __main__ - INFO - 📦 Parsing descriptions:  11%|█         | 1797/16340 [00:06<00:51, 280.05it/s]
+2025-08-07 02:07:52,256 - __main__ - INFO - 📦 Parsing descriptions:  11%|█         | 1826/16340 [00:06<00:51, 281.13it/s]
+2025-08-07 02:07:52,358 - __main__ - INFO - 📦 Parsing descriptions:  11%|█▏        | 1855/16340 [00:06<00:51, 281.73it/s]
+2025-08-07 02:07:52,458 - __main__ - INFO - 📦 Parsing descriptions:  12%|█▏        | 1884/16340 [00:06<00:51, 283.06it/s]
+2025-08-07 02:07:52,560 - __main__ - INFO - 📦 Parsing descriptions:  12%|█▏        | 1913/16340 [00:07<00:50, 284.51it/s]
+2025-08-07 02:07:52,663 - __main__ - INFO - 📦 Parsing descriptions:  12%|█▏        | 1942/16340 [00:07<00:50, 284.85it/s]
+2025-08-07 02:07:52,767 - __main__ - INFO - 📦 Parsing descriptions:  12%|█▏        | 1971/16340 [00:07<00:50, 283.58it/s]
+2025-08-07 02:07:52,871 - __main__ - INFO - 📦 Parsing descriptions:  12%|█▏        | 2000/16340 [00:07<00:50, 282.07it/s]
+2025-08-07 02:07:52,972 - __main__ - INFO - 📦 Parsing descriptions:  12%|█▏        | 2030/16340 [00:07<00:50, 284.06it/s]
+2025-08-07 02:07:53,076 - __main__ - INFO - 📦 Parsing descriptions:  13%|█▎        | 2059/16340 [00:07<00:50, 285.46it/s]
+2025-08-07 02:07:53,181 - __main__ - INFO - 📦 Parsing descriptions:  13%|█▎        | 2088/16340 [00:07<00:50, 282.68it/s]
+2025-08-07 02:07:53,283 - __main__ - INFO - 📦 Parsing descriptions:  13%|█▎        | 2118/16340 [00:07<00:50, 284.16it/s]
+2025-08-07 02:07:53,390 - __main__ - INFO - 📦 Parsing descriptions:  13%|█▎        | 2148/16340 [00:07<00:49, 286.58it/s]
+2025-08-07 02:07:53,495 - __main__ - INFO - 📦 Parsing descriptions:  13%|█▎        | 2177/16340 [00:07<00:50, 281.95it/s]
+2025-08-07 02:07:53,597 - __main__ - INFO - 📦 Parsing descriptions:  14%|█▎        | 2206/16340 [00:08<00:50, 280.81it/s]
+2025-08-07 02:07:53,700 - __main__ - INFO - 📦 Parsing descriptions:  14%|█▎        | 2236/16340 [00:08<00:49, 284.21it/s]
+2025-08-07 02:07:53,803 - __main__ - INFO - 📦 Parsing descriptions:  14%|█▍        | 2265/16340 [00:08<00:49, 283.17it/s]
+2025-08-07 02:07:53,906 - __main__ - INFO - 📦 Parsing descriptions:  14%|█▍        | 2294/16340 [00:08<00:49, 283.19it/s]
+2025-08-07 02:07:54,007 - __main__ - INFO - 📦 Parsing descriptions:  14%|█▍        | 2324/16340 [00:08<00:49, 285.74it/s]
+2025-08-07 02:07:54,110 - __main__ - INFO - 📦 Parsing descriptions:  14%|█▍        | 2353/16340 [00:08<00:48, 286.26it/s]
+2025-08-07 02:07:54,210 - __main__ - INFO - 📦 Parsing descriptions:  15%|█▍        | 2383/16340 [00:08<00:48, 287.67it/s]
+2025-08-07 02:07:54,312 - __main__ - INFO - 📦 Parsing descriptions:  15%|█▍        | 2412/16340 [00:08<00:48, 287.80it/s]
+2025-08-07 02:07:54,414 - __main__ - INFO - 📦 Parsing descriptions:  15%|█▍        | 2441/16340 [00:08<00:48, 287.30it/s]
+2025-08-07 02:07:54,519 - __main__ - INFO - 📦 Parsing descriptions:  15%|█▌        | 2470/16340 [00:08<00:48, 285.77it/s]
+2025-08-07 02:07:54,619 - __main__ - INFO - 📦 Parsing descriptions:  15%|█▌        | 2500/16340 [00:09<00:48, 286.34it/s]
+2025-08-07 02:07:54,725 - __main__ - INFO - 📦 Parsing descriptions:  15%|█▌        | 2529/16340 [00:09<00:48, 287.19it/s]
+2025-08-07 02:07:54,830 - __main__ - INFO - 📦 Parsing descriptions:  16%|█▌        | 2558/16340 [00:09<00:48, 283.40it/s]
+2025-08-07 02:07:55,052 - __main__ - INFO - 📦 Parsing descriptions:  16%|█▌        | 2587/16340 [00:09<00:48, 280.90it/s]
+2025-08-07 02:07:55,154 - __main__ - INFO - 📦 Parsing descriptions:  16%|█▌        | 2616/16340 [00:09<01:05, 208.79it/s]
+2025-08-07 02:07:55,258 - __main__ - INFO - 📦 Parsing descriptions:  16%|█▌        | 2645/16340 [00:09<01:00, 227.13it/s]
+2025-08-07 02:07:55,361 - __main__ - INFO - 📦 Parsing descriptions:  16%|█▋        | 2675/16340 [00:09<00:56, 243.12it/s]
+2025-08-07 02:07:55,462 - __main__ - INFO - 📦 Parsing descriptions:  17%|█▋        | 2705/16340 [00:09<00:53, 255.87it/s]
+2025-08-07 02:07:55,563 - __main__ - INFO - 📦 Parsing descriptions:  17%|█▋        | 2734/16340 [00:10<00:51, 263.98it/s]
+2025-08-07 02:07:55,665 - __main__ - INFO - 📦 Parsing descriptions:  17%|█▋        | 2763/16340 [00:10<00:50, 270.94it/s]
+2025-08-07 02:07:55,771 - __main__ - INFO - 📦 Parsing descriptions:  17%|█▋        | 2792/16340 [00:10<00:49, 274.56it/s]
+2025-08-07 02:07:55,874 - __main__ - INFO - 📦 Parsing descriptions:  17%|█▋        | 2821/16340 [00:10<00:49, 274.29it/s]
+2025-08-07 02:07:55,975 - __main__ - INFO - 📦 Parsing descriptions:  17%|█▋        | 2850/16340 [00:10<00:48, 276.22it/s]
+2025-08-07 02:07:56,078 - __main__ - INFO - 📦 Parsing descriptions:  18%|█▊        | 2878/16340 [00:10<00:48, 276.58it/s]
+2025-08-07 02:07:56,178 - __main__ - INFO - 📦 Parsing descriptions:  18%|█▊        | 2907/16340 [00:10<00:48, 278.19it/s]
+2025-08-07 02:07:56,282 - __main__ - INFO - 📦 Parsing descriptions:  18%|█▊        | 2936/16340 [00:10<00:47, 281.52it/s]
+2025-08-07 02:22:57,447 - __main__ - INFO - 📦 Parsing descriptions:  18%|█▊        | 2965/16340 [00:10<00:47, 280.56it/s]
+2025-08-07 02:22:57,576 - __main__ - INFO - 📦 Parsing descriptions:  18%|█▊        | 2994/16340 [15:11<34:38:13,  9.34s/it]
+2025-08-07 02:22:57,781 - __main__ - INFO - 📦 Parsing descriptions:  18%|█▊        | 3009/16340 [15:12<28:18:57,  7.65s/it]
+2025-08-07 02:22:57,884 - __main__ - INFO - 📦 Parsing descriptions:  19%|█▊        | 3033/16340 [15:12<19:58:43,  5.40s/it]
+2025-08-07 02:22:57,987 - __main__ - INFO - 📦 Parsing descriptions:  19%|█▊        | 3057/16340 [15:12<14:03:21,  3.81s/it]
+2025-08-07 02:22:58,118 - __main__ - INFO - 📦 Parsing descriptions:  19%|█▉        | 3086/16340 [15:12<9:17:35,  2.52s/it]
+2025-08-07 02:22:58,217 - __main__ - INFO - 📦 Parsing descriptions:  19%|█▉        | 3109/16340 [15:12<6:42:54,  1.83s/it]
+2025-08-07 02:22:58,321 - __main__ - INFO - 📦 Parsing descriptions:  19%|█▉        | 3136/16340 [15:12<4:34:53,  1.25s/it]
+2025-08-07 02:22:58,422 - __main__ - INFO - 📦 Parsing descriptions:  19%|█▉        | 3160/16340 [15:12<3:15:55,  1.12it/s]
+2025-08-07 02:22:58,523 - __main__ - INFO - 📦 Parsing descriptions:  20%|█▉        | 3187/16340 [15:12<2:14:03,  1.64it/s]
+2025-08-07 02:22:58,625 - __main__ - INFO - 📦 Parsing descriptions:  20%|█▉        | 3213/16340 [15:13<1:33:32,  2.34it/s]
+2025-08-07 02:22:58,726 - __main__ - INFO - 📦 Parsing descriptions:  20%|█▉        | 3241/16340 [15:13<1:03:56,  3.41it/s]
+2025-08-07 02:22:58,827 - __main__ - INFO - 📦 Parsing descriptions:  20%|██        | 3268/16340 [15:13<44:37,  4.88it/s]
+2025-08-07 02:22:58,930 - __main__ - INFO - 📦 Parsing descriptions:  20%|██        | 3294/16340 [15:13<31:38,  6.87it/s]
+2025-08-07 02:22:59,033 - __main__ - INFO - 📦 Parsing descriptions:  20%|██        | 3321/16340 [15:13<22:12,  9.77it/s]
+2025-08-07 02:22:59,136 - __main__ - INFO - 📦 Parsing descriptions:  21%|██        | 3350/16340 [15:13<15:20, 14.11it/s]
+2025-08-07 02:22:59,237 - __main__ - INFO - 📦 Parsing descriptions:  21%|██        | 3379/16340 [15:13<10:45, 20.07it/s]
+2025-08-07 02:22:59,339 - __main__ - INFO - 📦 Parsing descriptions:  21%|██        | 3408/16340 [15:13<07:39, 28.15it/s]
+2025-08-07 02:22:59,447 - __main__ - INFO - 📦 Parsing descriptions:  21%|██        | 3437/16340 [15:13<05:31, 38.87it/s]
+2025-08-07 02:22:59,551 - __main__ - INFO - 📦 Parsing descriptions:  21%|██        | 3465/16340 [15:13<04:07, 52.00it/s]
+2025-08-07 02:22:59,662 - __main__ - INFO - 📦 Parsing descriptions:  21%|██▏       | 3494/16340 [15:14<03:05, 69.19it/s]
+2025-08-07 02:22:59,766 - __main__ - INFO - 📦 Parsing descriptions:  22%|██▏       | 3523/16340 [15:14<02:23, 89.12it/s]
+2025-08-07 02:22:59,867 - __main__ - INFO - 📦 Parsing descriptions:  22%|██▏       | 3551/16340 [15:14<01:55, 110.92it/s]
+2025-08-07 02:22:59,977 - __main__ - INFO - 📦 Parsing descriptions:  22%|██▏       | 3579/16340 [15:14<01:34, 134.89it/s]
+2025-08-07 02:23:00,077 - __main__ - INFO - 📦 Parsing descriptions:  22%|██▏       | 3607/16340 [15:14<01:21, 156.93it/s]
+2025-08-07 02:23:00,180 - __main__ - INFO - 📦 Parsing descriptions:  22%|██▏       | 3635/16340 [15:14<01:10, 180.46it/s]
+2025-08-07 02:23:00,283 - __main__ - INFO - 📦 Parsing descriptions:  22%|██▏       | 3664/16340 [15:14<01:02, 202.71it/s]
+2025-08-07 02:23:00,384 - __main__ - INFO - 📦 Parsing descriptions:  23%|██▎       | 3693/16340 [15:14<00:57, 221.87it/s]
+2025-08-07 02:23:00,486 - __main__ - INFO - 📦 Parsing descriptions:  23%|██▎       | 3722/16340 [15:14<00:52, 238.31it/s]
+2025-08-07 02:23:00,588 - __main__ - INFO - 📦 Parsing descriptions:  23%|██▎       | 3751/16340 [15:15<00:50, 250.07it/s]
+2025-08-07 02:23:00,690 - __main__ - INFO - 📦 Parsing descriptions:  23%|██▎       | 3780/16340 [15:15<00:48, 259.84it/s]
+2025-08-07 02:23:00,793 - __main__ - INFO - 📦 Parsing descriptions:  23%|██▎       | 3809/16340 [15:15<00:46, 266.66it/s]
+2025-08-07 02:23:00,896 - __main__ - INFO - 📦 Parsing descriptions:  23%|██▎       | 3838/16340 [15:15<00:46, 271.04it/s]
+2025-08-07 02:23:00,998 - __main__ - INFO - 📦 Parsing descriptions:  24%|██▎       | 3868/16340 [15:15<00:45, 276.83it/s]
+2025-08-07 02:23:01,101 - __main__ - INFO - 📦 Parsing descriptions:  24%|██▍       | 3897/16340 [15:15<00:44, 278.98it/s]
+2025-08-07 02:23:01,202 - __main__ - INFO - 📦 Parsing descriptions:  24%|██▍       | 3926/16340 [15:15<00:44, 280.26it/s]
+2025-08-07 02:23:01,304 - __main__ - INFO - 📦 Parsing descriptions:  24%|██▍       | 3955/16340 [15:15<00:43, 281.79it/s]
+2025-08-07 02:23:01,409 - __main__ - INFO - 📦 Parsing descriptions:  24%|██▍       | 3984/16340 [15:15<00:43, 282.81it/s]
+2025-08-07 02:23:01,514 - __main__ - INFO - 📦 Parsing descriptions:  25%|██▍       | 4013/16340 [15:15<00:43, 280.68it/s]
+2025-08-07 02:23:01,619 - __main__ - INFO - 📦 Parsing descriptions:  25%|██▍       | 4042/16340 [15:16<00:44, 279.39it/s]
+2025-08-07 02:23:01,721 - __main__ - INFO - 📦 Parsing descriptions:  25%|██▍       | 4071/16340 [15:16<00:44, 278.01it/s]
+2025-08-07 02:23:01,825 - __main__ - INFO - 📦 Parsing descriptions:  25%|██▌       | 4099/16340 [15:16<00:44, 277.14it/s]
+2025-08-07 02:23:01,926 - __main__ - INFO - 📦 Parsing descriptions:  25%|██▌       | 4128/16340 [15:16<00:43, 277.63it/s]
+2025-08-07 02:23:02,028 - __main__ - INFO - 📦 Parsing descriptions:  25%|██▌       | 4157/16340 [15:16<00:43, 280.28it/s]
+2025-08-07 02:23:02,130 - __main__ - INFO - 📦 Parsing descriptions:  26%|██▌       | 4186/16340 [15:16<00:43, 281.57it/s]
+2025-08-07 02:23:02,396 - __main__ - INFO - 📦 Parsing descriptions:  26%|██▌       | 4215/16340 [15:16<00:42, 282.82it/s]
+2025-08-07 02:23:02,497 - __main__ - INFO - 📦 Parsing descriptions:  26%|██▌       | 4244/16340 [15:16<01:03, 191.27it/s]
+2025-08-07 02:23:02,599 - __main__ - INFO - 📦 Parsing descriptions:  26%|██▌       | 4273/16340 [15:17<00:56, 212.48it/s]
+2025-08-07 02:23:02,699 - __main__ - INFO - 📦 Parsing descriptions:  26%|██▋       | 4301/16340 [15:17<00:52, 228.51it/s]
+2025-08-07 02:23:02,800 - __main__ - INFO - 📦 Parsing descriptions:  26%|██▋       | 4330/16340 [15:17<00:49, 242.82it/s]
+2025-08-07 02:23:02,902 - __main__ - INFO - 📦 Parsing descriptions:  27%|██▋       | 4359/16340 [15:17<00:47, 254.64it/s]
+2025-08-07 02:23:03,006 - __main__ - INFO - 📦 Parsing descriptions:  27%|██▋       | 4388/16340 [15:17<00:45, 262.76it/s]
+2025-08-07 02:23:03,111 - __main__ - INFO - 📦 Parsing descriptions:  27%|██▋       | 4417/16340 [15:17<00:44, 267.70it/s]
+2025-08-07 02:23:03,217 - __main__ - INFO - 📦 Parsing descriptions:  27%|██▋       | 4445/16340 [15:17<00:44, 267.43it/s]
+2025-08-07 02:23:03,318 - __main__ - INFO - 📦 Parsing descriptions:  27%|██▋       | 4473/16340 [15:17<00:44, 266.72it/s]
+2025-08-07 02:23:03,421 - __main__ - INFO - 📦 Parsing descriptions:  28%|██▊       | 4501/16340 [15:17<00:43, 269.25it/s]
+2025-08-07 02:23:03,523 - __main__ - INFO - 📦 Parsing descriptions:  28%|██▊       | 4529/16340 [15:17<00:43, 270.20it/s]
+2025-08-07 02:23:03,624 - __main__ - INFO - 📦 Parsing descriptions:  28%|██▊       | 4558/16340 [15:18<00:42, 274.20it/s]
+2025-08-07 02:23:03,726 - __main__ - INFO - 📦 Parsing descriptions:  28%|██▊       | 4587/16340 [15:18<00:42, 277.88it/s]
+2025-08-07 02:23:03,827 - __main__ - INFO - 📦 Parsing descriptions:  28%|██▊       | 4616/16340 [15:18<00:41, 280.21it/s]
+2025-08-07 02:23:03,931 - __main__ - INFO - 📦 Parsing descriptions:  28%|██▊       | 4645/16340 [15:18<00:41, 282.45it/s]
+2025-08-07 02:23:04,033 - __main__ - INFO - 📦 Parsing descriptions:  29%|██▊       | 4674/16340 [15:18<00:41, 281.23it/s]
+2025-08-07 02:23:04,136 - __main__ - INFO - 📦 Parsing descriptions:  29%|██▉       | 4703/16340 [15:18<00:41, 281.84it/s]
+2025-08-07 02:23:04,238 - __main__ - INFO - 📦 Parsing descriptions:  29%|██▉       | 4732/16340 [15:18<00:41, 282.03it/s]
+2025-08-07 02:23:04,343 - __main__ - INFO - 📦 Parsing descriptions:  29%|██▉       | 4761/16340 [15:18<00:40, 282.84it/s]
+2025-08-07 02:23:04,445 - __main__ - INFO - 📦 Parsing descriptions:  29%|██▉       | 4790/16340 [15:18<00:41, 280.45it/s]
+2025-08-07 02:23:04,551 - __main__ - INFO - 📦 Parsing descriptions:  29%|██▉       | 4819/16340 [15:18<00:40, 281.54it/s]
+2025-08-07 02:23:04,652 - __main__ - INFO - 📦 Parsing descriptions:  30%|██▉       | 4848/16340 [15:19<00:41, 279.69it/s]
+2025-08-07 02:23:04,756 - __main__ - INFO - 📦 Parsing descriptions:  30%|██▉       | 4876/16340 [15:19<00:41, 278.61it/s]
+2025-08-07 02:23:04,858 - __main__ - INFO - 📦 Parsing descriptions:  30%|███       | 4905/16340 [15:19<00:40, 279.05it/s]
+2025-08-07 02:23:04,960 - __main__ - INFO - 📦 Parsing descriptions:  30%|███       | 4934/16340 [15:19<00:40, 280.60it/s]
+2025-08-07 02:23:05,062 - __main__ - INFO - 📦 Parsing descriptions:  30%|███       | 4963/16340 [15:19<00:40, 281.35it/s]
+2025-08-07 02:23:05,162 - __main__ - INFO - 📦 Parsing descriptions:  31%|███       | 4992/16340 [15:19<00:40, 282.64it/s]
+2025-08-07 02:23:05,266 - __main__ - INFO - 📦 Parsing descriptions:  31%|███       | 5021/16340 [15:19<00:39, 284.13it/s]
+2025-08-07 02:23:05,368 - __main__ - INFO - 📦 Parsing descriptions:  31%|███       | 5050/16340 [15:19<00:39, 282.76it/s]
+2025-08-07 02:23:05,470 - __main__ - INFO - 📦 Parsing descriptions:  31%|███       | 5079/16340 [15:19<00:39, 283.59it/s]
+2025-08-07 02:23:05,571 - __main__ - INFO - 📦 Parsing descriptions:  31%|███▏      | 5108/16340 [15:20<00:39, 283.45it/s]
+2025-08-07 02:23:05,672 - __main__ - INFO - 📦 Parsing descriptions:  31%|███▏      | 5137/16340 [15:20<00:39, 284.84it/s]
+2025-08-07 02:23:05,774 - __main__ - INFO - 📦 Parsing descriptions:  32%|███▏      | 5166/16340 [15:20<00:39, 284.83it/s]
+2025-08-07 02:23:05,874 - __main__ - INFO - 📦 Parsing descriptions:  32%|███▏      | 5195/16340 [15:20<00:39, 285.20it/s]
+2025-08-07 02:23:05,975 - __main__ - INFO - 📦 Parsing descriptions:  32%|███▏      | 5224/16340 [15:20<00:38, 286.47it/s]
+2025-08-07 02:23:06,076 - __main__ - INFO - 📦 Parsing descriptions:  32%|███▏      | 5253/16340 [15:20<00:38, 286.95it/s]
+2025-08-07 02:23:06,176 - __main__ - INFO - 📦 Parsing descriptions:  32%|███▏      | 5282/16340 [15:20<00:38, 287.05it/s]
+2025-08-07 02:23:06,278 - __main__ - INFO - 📦 Parsing descriptions:  33%|███▎      | 5311/16340 [15:20<00:38, 287.51it/s]
+2025-08-07 02:23:06,382 - __main__ - INFO - 📦 Parsing descriptions:  33%|███▎      | 5340/16340 [15:20<00:38, 286.88it/s]
+2025-08-07 02:23:06,484 - __main__ - INFO - 📦 Parsing descriptions:  33%|███▎      | 5369/16340 [15:20<00:38, 284.40it/s]
+2025-08-07 02:23:06,587 - __main__ - INFO - 📦 Parsing descriptions:  33%|███▎      | 5398/16340 [15:21<00:38, 284.12it/s]
+2025-08-07 02:23:06,688 - __main__ - INFO - 📦 Parsing descriptions:  33%|███▎      | 5427/16340 [15:21<00:38, 283.53it/s]
+2025-08-07 02:23:06,790 - __main__ - INFO - 📦 Parsing descriptions:  33%|███▎      | 5456/16340 [15:21<00:38, 284.08it/s]
+2025-08-07 02:23:06,890 - __main__ - INFO - 📦 Parsing descriptions:  34%|███▎      | 5485/16340 [15:21<00:38, 284.43it/s]
+2025-08-07 02:23:06,993 - __main__ - INFO - 📦 Parsing descriptions:  34%|███▎      | 5514/16340 [15:21<00:37, 285.96it/s]
+2025-08-07 02:23:07,094 - __main__ - INFO - 📦 Parsing descriptions:  34%|███▍      | 5543/16340 [15:21<00:37, 285.00it/s]
+2025-08-07 02:23:07,194 - __main__ - INFO - 📦 Parsing descriptions:  34%|███▍      | 5572/16340 [15:21<00:37, 285.79it/s]
+2025-08-07 02:23:07,298 - __main__ - INFO - 📦 Parsing descriptions:  34%|███▍      | 5601/16340 [15:21<00:37, 286.91it/s]
+2025-08-07 02:23:07,401 - __main__ - INFO - 📦 Parsing descriptions:  34%|███▍      | 5630/16340 [15:21<00:37, 284.21it/s]
+2025-08-07 02:23:07,503 - __main__ - INFO - 📦 Parsing descriptions:  35%|███▍      | 5659/16340 [15:21<00:37, 283.80it/s]
+2025-08-07 02:23:07,604 - __main__ - INFO - 📦 Parsing descriptions:  35%|███▍      | 5688/16340 [15:22<00:37, 283.81it/s]
+2025-08-07 02:23:07,707 - __main__ - INFO - 📦 Parsing descriptions:  35%|███▍      | 5717/16340 [15:22<00:37, 285.00it/s]
+2025-08-07 02:23:07,811 - __main__ - INFO - 📦 Parsing descriptions:  35%|███▌      | 5746/16340 [15:22<00:37, 283.25it/s]
+2025-08-07 02:23:07,914 - __main__ - INFO - 📦 Parsing descriptions:  35%|███▌      | 5775/16340 [15:22<00:37, 282.46it/s]
+2025-08-07 02:23:08,154 - __main__ - INFO - 📦 Parsing descriptions:  36%|███▌      | 5804/16340 [15:22<00:37, 281.63it/s]
+2025-08-07 02:23:08,255 - __main__ - INFO - 📦 Parsing descriptions:  36%|███▌      | 5833/16340 [15:22<00:52, 201.40it/s]
+2025-08-07 02:23:08,357 - __main__ - INFO - 📦 Parsing descriptions:  36%|███▌      | 5864/16340 [15:22<00:46, 225.79it/s]
+2025-08-07 02:23:08,459 - __main__ - INFO - 📦 Parsing descriptions:  36%|███▌      | 5895/16340 [15:22<00:42, 245.45it/s]
+2025-08-07 02:23:08,561 - __main__ - INFO - 📦 Parsing descriptions:  36%|███▋      | 5926/16340 [15:23<00:39, 260.88it/s]
+2025-08-07 02:23:08,663 - __main__ - INFO - 📦 Parsing descriptions:  36%|███▋      | 5957/16340 [15:23<00:38, 272.49it/s]
+2025-08-07 02:23:08,764 - __main__ - INFO - 📦 Parsing descriptions:  37%|███▋      | 5988/16340 [15:23<00:36, 281.28it/s]
+2025-08-07 02:23:08,866 - __main__ - INFO - 📦 Parsing descriptions:  37%|███▋      | 6019/16340 [15:23<00:35, 288.83it/s]
+2025-08-07 02:23:08,968 - __main__ - INFO - 📦 Parsing descriptions:  37%|███▋      | 6050/16340 [15:23<00:35, 293.28it/s]
+2025-08-07 02:23:09,070 - __main__ - INFO - 📦 Parsing descriptions:  37%|███▋      | 6081/16340 [15:23<00:34, 296.46it/s]
+2025-08-07 02:23:09,173 - __main__ - INFO - 📦 Parsing descriptions:  37%|███▋      | 6112/16340 [15:23<00:34, 298.33it/s]
+2025-08-07 02:23:09,276 - __main__ - INFO - 📦 Parsing descriptions:  38%|███▊      | 6143/16340 [15:23<00:34, 298.94it/s]
+2025-08-07 02:23:09,383 - __main__ - INFO - 📦 Parsing descriptions:  38%|███▊      | 6174/16340 [15:23<00:33, 299.62it/s]
+2025-08-07 02:23:09,486 - __main__ - INFO - 📦 Parsing descriptions:  38%|███▊      | 6205/16340 [15:23<00:34, 297.06it/s]
+2025-08-07 02:23:09,589 - __main__ - INFO - 📦 Parsing descriptions:  38%|███▊      | 6235/16340 [15:24<00:34, 295.02it/s]
+2025-08-07 02:23:09,691 - __main__ - INFO - 📦 Parsing descriptions:  38%|███▊      | 6265/16340 [15:24<00:34, 293.49it/s]
+2025-08-07 02:23:09,794 - __main__ - INFO - 📦 Parsing descriptions:  39%|███▊      | 6295/16340 [15:24<00:34, 294.21it/s]
+2025-08-07 02:23:09,897 - __main__ - INFO - 📦 Parsing descriptions:  39%|███▊      | 6326/16340 [15:24<00:33, 296.21it/s]
+2025-08-07 02:23:09,998 - __main__ - INFO - 📦 Parsing descriptions:  39%|███▉      | 6357/16340 [15:24<00:33, 297.84it/s]
+2025-08-07 02:23:10,102 - __main__ - INFO - 📦 Parsing descriptions:  39%|███▉      | 6388/16340 [15:24<00:33, 300.06it/s]
+2025-08-07 02:23:10,203 - __main__ - INFO - 📦 Parsing descriptions:  39%|███▉      | 6419/16340 [15:24<00:33, 299.64it/s]
+2025-08-07 02:23:10,304 - __main__ - INFO - 📦 Parsing descriptions:  39%|███▉      | 6449/16340 [15:24<00:33, 298.86it/s]
+2025-08-07 02:23:10,407 - __main__ - INFO - 📦 Parsing descriptions:  40%|███▉      | 6479/16340 [15:24<00:33, 298.46it/s]
+2025-08-07 02:23:10,510 - __main__ - INFO - 📦 Parsing descriptions:  40%|███▉      | 6509/16340 [15:24<00:33, 295.76it/s]
+2025-08-07 02:23:10,612 - __main__ - INFO - 📦 Parsing descriptions:  40%|████      | 6540/16340 [15:25<00:32, 298.05it/s]
+2025-08-07 02:23:10,714 - __main__ - INFO - 📦 Parsing descriptions:  40%|████      | 6571/16340 [15:25<00:32, 299.76it/s]
+2025-08-07 02:23:10,816 - __main__ - INFO - 📦 Parsing descriptions:  40%|████      | 6602/16340 [15:25<00:32, 300.95it/s]
+2025-08-07 02:23:10,918 - __main__ - INFO - 📦 Parsing descriptions:  41%|████      | 6633/16340 [15:25<00:32, 301.64it/s]
+2025-08-07 02:23:11,021 - __main__ - INFO - 📦 Parsing descriptions:  41%|████      | 6664/16340 [15:25<00:32, 301.87it/s]
+2025-08-07 02:23:11,123 - __main__ - INFO - 📦 Parsing descriptions:  41%|████      | 6695/16340 [15:25<00:31, 302.39it/s]
+2025-08-07 02:23:11,225 - __main__ - INFO - 📦 Parsing descriptions:  41%|████      | 6726/16340 [15:25<00:31, 302.11it/s]
+2025-08-07 02:23:11,327 - __main__ - INFO - 📦 Parsing descriptions:  41%|████▏     | 6757/16340 [15:25<00:31, 303.03it/s]
+2025-08-07 02:23:11,429 - __main__ - INFO - 📦 Parsing descriptions:  42%|████▏     | 6788/16340 [15:25<00:31, 303.26it/s]
+2025-08-07 02:23:11,530 - __main__ - INFO - 📦 Parsing descriptions:  42%|████▏     | 6819/16340 [15:25<00:31, 303.75it/s]
+2025-08-07 02:23:11,632 - __main__ - INFO - 📦 Parsing descriptions:  42%|████▏     | 6850/16340 [15:26<00:31, 304.16it/s]
+2025-08-07 02:23:11,742 - __main__ - INFO - 📦 Parsing descriptions:  42%|████▏     | 6881/16340 [15:26<00:31, 304.28it/s]
+2025-08-07 02:23:11,848 - __main__ - INFO - 📦 Parsing descriptions:  42%|████▏     | 6912/16340 [15:26<00:31, 297.36it/s]
+2025-08-07 02:23:11,951 - __main__ - INFO - 📦 Parsing descriptions:  42%|████▏     | 6942/16340 [15:26<00:32, 292.98it/s]
+2025-08-07 02:23:12,053 - __main__ - INFO - 📦 Parsing descriptions:  43%|████▎     | 6972/16340 [15:26<00:32, 292.56it/s]
+2025-08-07 02:23:12,155 - __main__ - INFO - 📦 Parsing descriptions:  43%|████▎     | 7002/16340 [15:26<00:31, 293.19it/s]
+2025-08-07 02:23:12,256 - __main__ - INFO - 📦 Parsing descriptions:  43%|████▎     | 7033/16340 [15:26<00:31, 296.37it/s]
+2025-08-07 02:23:12,359 - __main__ - INFO - 📦 Parsing descriptions:  43%|████▎     | 7064/16340 [15:26<00:31, 298.78it/s]
+2025-08-07 02:23:12,462 - __main__ - INFO - 📦 Parsing descriptions:  43%|████▎     | 7095/16340 [15:26<00:30, 299.80it/s]
+2025-08-07 02:23:12,563 - __main__ - INFO - 📦 Parsing descriptions:  44%|████▎     | 7126/16340 [15:27<00:30, 300.49it/s]
+2025-08-07 02:23:12,666 - __main__ - INFO - 📦 Parsing descriptions:  44%|████▍     | 7157/16340 [15:27<00:30, 301.99it/s]
+2025-08-07 02:23:12,769 - __main__ - INFO - 📦 Parsing descriptions:  44%|████▍     | 7188/16340 [15:27<00:30, 302.12it/s]
+2025-08-07 02:23:12,876 - __main__ - INFO - 📦 Parsing descriptions:  44%|████▍     | 7219/16340 [15:27<00:30, 301.55it/s]
+2025-08-07 02:23:12,979 - __main__ - INFO - 📦 Parsing descriptions:  44%|████▍     | 7250/16340 [15:27<00:30, 298.01it/s]
+2025-08-07 02:23:13,081 - __main__ - INFO - 📦 Parsing descriptions:  45%|████▍     | 7280/16340 [15:27<00:30, 296.07it/s]
+2025-08-07 02:23:13,190 - __main__ - INFO - 📦 Parsing descriptions:  45%|████▍     | 7310/16340 [15:27<00:30, 294.75it/s]
+2025-08-07 02:23:13,291 - __main__ - INFO - 📦 Parsing descriptions:  45%|████▍     | 7340/16340 [15:27<00:31, 288.96it/s]
+2025-08-07 02:23:13,526 - __main__ - INFO - 📦 Parsing descriptions:  45%|████▌     | 7369/16340 [15:27<00:31, 288.88it/s]
+2025-08-07 02:23:13,629 - __main__ - INFO - 📦 Parsing descriptions:  45%|████▌     | 7398/16340 [15:28<00:43, 207.32it/s]
+2025-08-07 02:23:13,731 - __main__ - INFO - 📦 Parsing descriptions:  45%|████▌     | 7428/16340 [15:28<00:39, 227.12it/s]
+2025-08-07 02:23:13,831 - __main__ - INFO - 📦 Parsing descriptions:  46%|████▌     | 7458/16340 [15:28<00:36, 243.88it/s]
+2025-08-07 02:23:13,932 - __main__ - INFO - 📦 Parsing descriptions:  46%|████▌     | 7487/16340 [15:28<00:34, 255.55it/s]
+2025-08-07 02:23:14,036 - __main__ - INFO - 📦 Parsing descriptions:  46%|████▌     | 7516/16340 [15:28<00:33, 264.46it/s]
+2025-08-07 02:23:14,139 - __main__ - INFO - 📦 Parsing descriptions:  46%|████▌     | 7544/16340 [15:28<00:33, 265.24it/s]
+2025-08-07 02:23:14,240 - __main__ - INFO - 📦 Parsing descriptions:  46%|████▋     | 7574/16340 [15:28<00:32, 273.05it/s]
+2025-08-07 02:23:14,341 - __main__ - INFO - 📦 Parsing descriptions:  47%|████▋     | 7603/16340 [15:28<00:31, 277.28it/s]
+2025-08-07 02:23:14,443 - __main__ - INFO - 📦 Parsing descriptions:  47%|████▋     | 7632/16340 [15:28<00:31, 280.22it/s]
+2025-08-07 02:23:14,546 - __main__ - INFO - 📦 Parsing descriptions:  47%|████▋     | 7663/16340 [15:28<00:30, 286.55it/s]
+2025-08-07 02:23:14,651 - __main__ - INFO - 📦 Parsing descriptions:  47%|████▋     | 7694/16340 [15:29<00:29, 291.13it/s]
+2025-08-07 02:23:14,753 - __main__ - INFO - 📦 Parsing descriptions:  47%|████▋     | 7724/16340 [15:29<00:29, 289.97it/s]
+2025-08-07 02:23:14,858 - __main__ - INFO - 📦 Parsing descriptions:  47%|████▋     | 7754/16340 [15:29<00:29, 290.75it/s]
+2025-08-07 02:23:14,958 - __main__ - INFO - 📦 Parsing descriptions:  48%|████▊     | 7784/16340 [15:29<00:29, 289.41it/s]
+2025-08-07 02:23:15,061 - __main__ - INFO - 📦 Parsing descriptions:  48%|████▊     | 7814/16340 [15:29<00:29, 292.23it/s]
+2025-08-07 02:23:15,164 - __main__ - INFO - 📦 Parsing descriptions:  48%|████▊     | 7844/16340 [15:29<00:29, 291.86it/s]
+2025-08-07 02:23:15,267 - __main__ - INFO - 📦 Parsing descriptions:  48%|████▊     | 7875/16340 [15:29<00:28, 295.03it/s]
+2025-08-07 02:23:15,369 - __main__ - INFO - 📦 Parsing descriptions:  48%|████▊     | 7906/16340 [15:29<00:28, 296.98it/s]
+2025-08-07 02:23:15,474 - __main__ - INFO - 📦 Parsing descriptions:  49%|████▊     | 7937/16340 [15:29<00:28, 298.43it/s]
+2025-08-07 02:23:15,577 - __main__ - INFO - 📦 Parsing descriptions:  49%|████▉     | 7967/16340 [15:30<00:28, 294.44it/s]
+2025-08-07 02:23:15,678 - __main__ - INFO - 📦 Parsing descriptions:  49%|████▉     | 7997/16340 [15:30<00:28, 293.78it/s]
+2025-08-07 02:23:15,781 - __main__ - INFO - 📦 Parsing descriptions:  49%|████▉     | 8027/16340 [15:30<00:28, 294.62it/s]
+2025-08-07 02:23:15,883 - __main__ - INFO - 📦 Parsing descriptions:  49%|████▉     | 8058/16340 [15:30<00:27, 296.62it/s]
+2025-08-07 02:23:15,985 - __main__ - INFO - 📦 Parsing descriptions:  49%|████▉     | 8088/16340 [15:30<00:27, 296.29it/s]
+2025-08-07 02:23:16,085 - __main__ - INFO - 📦 Parsing descriptions:  50%|████▉     | 8119/16340 [15:30<00:27, 298.32it/s]
+2025-08-07 02:23:16,188 - __main__ - INFO - 📦 Parsing descriptions:  50%|████▉     | 8149/16340 [15:30<00:27, 298.76it/s]
+2025-08-07 02:23:16,312 - __main__ - INFO - 📦 Parsing descriptions:  50%|█████     | 8179/16340 [15:30<00:27, 296.36it/s]
+2025-08-07 02:23:16,418 - __main__ - INFO - 📦 Parsing descriptions:  50%|█████     | 8209/16340 [15:30<00:29, 279.54it/s]
+2025-08-07 02:23:16,518 - __main__ - INFO - 📦 Parsing descriptions:  50%|█████     | 8238/16340 [15:30<00:29, 276.00it/s]
+2025-08-07 02:23:16,619 - __main__ - INFO - 📦 Parsing descriptions:  51%|█████     | 8268/16340 [15:31<00:28, 282.75it/s]
+2025-08-07 02:23:16,722 - __main__ - INFO - 📦 Parsing descriptions:  51%|█████     | 8298/16340 [15:31<00:28, 286.94it/s]
+2025-08-07 02:23:16,823 - __main__ - INFO - 📦 Parsing descriptions:  51%|█████     | 8328/16340 [15:31<00:27, 288.27it/s]
+2025-08-07 02:23:16,927 - __main__ - INFO - 📦 Parsing descriptions:  51%|█████     | 8358/16340 [15:31<00:27, 291.22it/s]
+2025-08-07 02:23:17,031 - __main__ - INFO - 📦 Parsing descriptions:  51%|█████▏    | 8388/16340 [15:31<00:27, 289.79it/s]
+2025-08-07 02:23:17,132 - __main__ - INFO - 📦 Parsing descriptions:  52%|█████▏    | 8418/16340 [15:31<00:27, 289.63it/s]
+2025-08-07 02:23:17,233 - __main__ - INFO - 📦 Parsing descriptions:  52%|█████▏    | 8448/16340 [15:31<00:27, 292.22it/s]
+2025-08-07 02:23:17,341 - __main__ - INFO - 📦 Parsing descriptions:  52%|█████▏    | 8478/16340 [15:31<00:26, 293.75it/s]
+2025-08-07 02:23:17,442 - __main__ - INFO - 📦 Parsing descriptions:  52%|█████▏    | 8508/16340 [15:31<00:27, 288.03it/s]
+2025-08-07 02:23:17,547 - __main__ - INFO - 📦 Parsing descriptions:  52%|█████▏    | 8538/16340 [15:31<00:26, 290.63it/s]
+2025-08-07 02:23:17,677 - __main__ - INFO - 📦 Parsing descriptions:  52%|█████▏    | 8568/16340 [15:32<00:26, 289.19it/s]
+2025-08-07 02:23:17,774 - __main__ - INFO - 📦 Parsing descriptions:  53%|█████▎    | 8597/16340 [15:32<00:28, 272.58it/s]
+2025-08-07 02:23:17,877 - __main__ - INFO - 📦 Parsing descriptions:  53%|█████▎    | 8625/16340 [15:32<00:28, 270.31it/s]
+2025-08-07 02:23:17,986 - __main__ - INFO - 📦 Parsing descriptions:  53%|█████▎    | 8653/16340 [15:32<00:28, 270.93it/s]
+2025-08-07 02:23:18,089 - __main__ - INFO - 📦 Parsing descriptions:  53%|█████▎    | 8681/16340 [15:32<00:28, 266.89it/s]
+2025-08-07 02:23:18,190 - __main__ - INFO - 📦 Parsing descriptions:  53%|█████▎    | 8709/16340 [15:32<00:28, 268.36it/s]
+2025-08-07 02:23:18,293 - __main__ - INFO - 📦 Parsing descriptions:  53%|█████▎    | 8737/16340 [15:32<00:28, 270.93it/s]
+2025-08-07 02:23:18,396 - __main__ - INFO - 📦 Parsing descriptions:  54%|█████▎    | 8766/16340 [15:32<00:27, 273.93it/s]
+2025-08-07 02:23:18,501 - __main__ - INFO - 📦 Parsing descriptions:  54%|█████▍    | 8794/16340 [15:32<00:27, 273.65it/s]
+2025-08-07 02:23:18,601 - __main__ - INFO - 📦 Parsing descriptions:  54%|█████▍    | 8822/16340 [15:33<00:27, 271.53it/s]
+2025-08-07 02:23:18,703 - __main__ - INFO - 📦 Parsing descriptions:  54%|█████▍    | 8852/16340 [15:33<00:26, 279.25it/s]
+2025-08-07 02:23:18,803 - __main__ - INFO - 📦 Parsing descriptions:  54%|█████▍    | 8881/16340 [15:33<00:26, 281.00it/s]
+2025-08-07 02:23:18,903 - __main__ - INFO - 📦 Parsing descriptions:  55%|█████▍    | 8911/16340 [15:33<00:25, 286.21it/s]
+2025-08-07 02:23:19,148 - __main__ - INFO - 📦 Parsing descriptions:  55%|█████▍    | 8941/16340 [15:33<00:25, 290.25it/s]
+2025-08-07 02:23:19,250 - __main__ - INFO - 📦 Parsing descriptions:  55%|█████▍    | 8971/16340 [15:33<00:35, 205.26it/s]
+2025-08-07 02:23:19,352 - __main__ - INFO - 📦 Parsing descriptions:  55%|█████▌    | 9001/16340 [15:33<00:32, 225.91it/s]
+2025-08-07 02:23:19,452 - __main__ - INFO - 📦 Parsing descriptions:  55%|█████▌    | 9031/16340 [15:33<00:30, 242.74it/s]
+2025-08-07 02:23:19,552 - __main__ - INFO - 📦 Parsing descriptions:  55%|█████▌    | 9061/16340 [15:33<00:28, 257.48it/s]
+2025-08-07 02:23:19,656 - __main__ - INFO - 📦 Parsing descriptions:  56%|█████▌    | 9091/16340 [15:34<00:26, 268.66it/s]
+2025-08-07 02:23:19,759 - __main__ - INFO - 📦 Parsing descriptions:  56%|█████▌    | 9121/16340 [15:34<00:26, 274.46it/s]
+2025-08-07 02:23:19,860 - __main__ - INFO - 📦 Parsing descriptions:  56%|█████▌    | 9151/16340 [15:34<00:25, 279.30it/s]
+2025-08-07 02:23:19,962 - __main__ - INFO - 📦 Parsing descriptions:  56%|█████▌    | 9180/16340 [15:34<00:25, 282.09it/s]
+2025-08-07 02:23:20,062 - __main__ - INFO - 📦 Parsing descriptions:  56%|█████▋    | 9210/16340 [15:34<00:24, 285.68it/s]
+2025-08-07 02:23:20,165 - __main__ - INFO - 📦 Parsing descriptions:  57%|█████▋    | 9239/16340 [15:34<00:24, 286.66it/s]
+2025-08-07 02:23:20,267 - __main__ - INFO - 📦 Parsing descriptions:  57%|█████▋    | 9268/16340 [15:34<00:24, 285.29it/s]
+2025-08-07 02:23:20,370 - __main__ - INFO - 📦 Parsing descriptions:  57%|█████▋    | 9299/16340 [15:34<00:24, 290.16it/s]
+2025-08-07 02:23:20,473 - __main__ - INFO - 📦 Parsing descriptions:  57%|█████▋    | 9330/16340 [15:34<00:23, 293.75it/s]
+2025-08-07 02:23:20,576 - __main__ - INFO - 📦 Parsing descriptions:  57%|█████▋    | 9361/16340 [15:35<00:23, 296.05it/s]
+2025-08-07 02:23:20,676 - __main__ - INFO - 📦 Parsing descriptions:  57%|█████▋    | 9392/16340 [15:35<00:23, 297.75it/s]
+2025-08-07 02:23:20,777 - __main__ - INFO - 📦 Parsing descriptions:  58%|█████▊    | 9422/16340 [15:35<00:23, 297.78it/s]
+2025-08-07 02:23:20,880 - __main__ - INFO - 📦 Parsing descriptions:  58%|█████▊    | 9452/16340 [15:35<00:23, 297.62it/s]
+2025-08-07 02:23:20,983 - __main__ - INFO - 📦 Parsing descriptions:  58%|█████▊    | 9483/16340 [15:35<00:22, 298.79it/s]
+2025-08-07 02:23:21,086 - __main__ - INFO - 📦 Parsing descriptions:  58%|█████▊    | 9514/16340 [15:35<00:22, 299.50it/s]
+2025-08-07 02:23:21,196 - __main__ - INFO - 📦 Parsing descriptions:  58%|█████▊    | 9545/16340 [15:35<00:22, 299.65it/s]
+2025-08-07 02:23:21,304 - __main__ - INFO - 📦 Parsing descriptions:  59%|█████▊    | 9575/16340 [15:35<00:23, 291.86it/s]
+2025-08-07 02:23:21,405 - __main__ - INFO - 📦 Parsing descriptions:  59%|█████▉    | 9605/16340 [15:35<00:23, 286.89it/s]
+2025-08-07 02:23:21,507 - __main__ - INFO - 📦 Parsing descriptions:  59%|█████▉    | 9635/16340 [15:35<00:23, 289.76it/s]
+2025-08-07 02:23:21,613 - __main__ - INFO - 📦 Parsing descriptions:  59%|█████▉    | 9665/16340 [15:36<00:22, 291.60it/s]
+2025-08-07 02:23:21,716 - __main__ - INFO - 📦 Parsing descriptions:  59%|█████▉    | 9695/16340 [15:36<00:22, 289.02it/s]
+2025-08-07 02:23:21,817 - __main__ - INFO - 📦 Parsing descriptions:  60%|█████▉    | 9725/16340 [15:36<00:22, 289.64it/s]
+2025-08-07 02:23:21,918 - __main__ - INFO - 📦 Parsing descriptions:  60%|█████▉    | 9754/16340 [15:36<00:22, 288.87it/s]
+2025-08-07 02:23:22,024 - __main__ - INFO - 📦 Parsing descriptions:  60%|█████▉    | 9783/16340 [15:36<00:22, 288.46it/s]
+2025-08-07 02:23:22,126 - __main__ - INFO - 📦 Parsing descriptions:  60%|██████    | 9812/16340 [15:36<00:23, 283.34it/s]
+2025-08-07 02:23:22,227 - __main__ - INFO - 📦 Parsing descriptions:  60%|██████    | 9842/16340 [15:36<00:22, 286.47it/s]
+2025-08-07 02:23:22,329 - __main__ - INFO - 📦 Parsing descriptions:  60%|██████    | 9871/16340 [15:36<00:22, 287.40it/s]
+2025-08-07 02:23:22,431 - __main__ - INFO - 📦 Parsing descriptions:  61%|██████    | 9901/16340 [15:36<00:22, 289.17it/s]
+2025-08-07 02:23:22,531 - __main__ - INFO - 📦 Parsing descriptions:  61%|██████    | 9931/16340 [15:36<00:22, 290.73it/s]
+2025-08-07 02:23:22,637 - __main__ - INFO - 📦 Parsing descriptions:  61%|██████    | 9961/16340 [15:37<00:21, 292.86it/s]
+2025-08-07 02:23:22,745 - __main__ - INFO - 📦 Parsing descriptions:  61%|██████    | 9991/16340 [15:37<00:21, 290.06it/s]
+2025-08-07 02:38:23,954 - __main__ - INFO - 📦 Parsing descriptions:  61%|██████▏   | 10021/16340 [15:37<00:22, 286.82it/s]
+2025-08-07 02:38:24,062 - __main__ - INFO - 📦 Parsing descriptions:  62%|██████▏   | 10050/16340 [30:38<15:56:52,  9.13s/it]
+2025-08-07 02:38:24,270 - __main__ - INFO - 📦 Parsing descriptions:  62%|██████▏   | 10056/16340 [30:38<14:39:45,  8.40s/it]
+2025-08-07 02:38:24,371 - __main__ - INFO - 📦 Parsing descriptions:  62%|██████▏   | 10078/16340 [30:38<10:18:24,  5.93s/it]
+2025-08-07 02:38:24,473 - __main__ - INFO - 📦 Parsing descriptions:  62%|██████▏   | 10105/16340 [30:38<6:46:00,  3.91s/it]
+2025-08-07 02:38:24,576 - __main__ - INFO - 📦 Parsing descriptions:  62%|██████▏   | 10129/16340 [30:39<4:42:24,  2.73s/it]
+2025-08-07 02:38:24,677 - __main__ - INFO - 📦 Parsing descriptions:  62%|██████▏   | 10156/16340 [30:39<3:09:24,  1.84s/it]
+2025-08-07 02:38:24,778 - __main__ - INFO - 📦 Parsing descriptions:  62%|██████▏   | 10182/16340 [30:39<2:10:14,  1.27s/it]
+2025-08-07 02:38:24,895 - __main__ - INFO - 📦 Parsing descriptions:  62%|██████▏   | 10208/16340 [30:39<1:29:59,  1.14it/s]
+2025-08-07 02:38:24,995 - __main__ - INFO - 📦 Parsing descriptions:  63%|██████▎   | 10233/16340 [30:39<1:03:10,  1.61it/s]
+2025-08-07 02:38:25,096 - __main__ - INFO - 📦 Parsing descriptions:  63%|██████▎   | 10261/16340 [30:39<42:45,  2.37it/s]
+2025-08-07 02:38:25,196 - __main__ - INFO - 📦 Parsing descriptions:  63%|██████▎   | 10286/16340 [30:39<30:18,  3.33it/s]
+2025-08-07 02:38:25,312 - __main__ - INFO - 📦 Parsing descriptions:  63%|██████▎   | 10312/16340 [30:39<21:11,  4.74it/s]
+2025-08-07 02:38:25,413 - __main__ - INFO - 📦 Parsing descriptions:  63%|██████▎   | 10338/16340 [30:39<14:52,  6.73it/s]
+2025-08-07 02:38:25,515 - __main__ - INFO - 📦 Parsing descriptions:  63%|██████▎   | 10366/16340 [30:39<10:13,  9.73it/s]
+2025-08-07 02:38:25,616 - __main__ - INFO - 📦 Parsing descriptions:  64%|██████▎   | 10393/16340 [30:40<07:12, 13.76it/s]
+2025-08-07 02:38:25,718 - __main__ - INFO - 📦 Parsing descriptions:  64%|██████▍   | 10422/16340 [30:40<04:59, 19.73it/s]
+2025-08-07 02:38:25,818 - __main__ - INFO - 📦 Parsing descriptions:  64%|██████▍   | 10450/16340 [30:40<03:34, 27.52it/s]
+2025-08-07 02:38:25,920 - __main__ - INFO - 📦 Parsing descriptions:  64%|██████▍   | 10478/16340 [30:40<02:34, 37.88it/s]
+2025-08-07 02:38:26,024 - __main__ - INFO - 📦 Parsing descriptions:  64%|██████▍   | 10507/16340 [30:40<01:52, 51.77it/s]
+2025-08-07 02:38:26,295 - __main__ - INFO - 📦 Parsing descriptions:  64%|██████▍   | 10536/16340 [30:40<01:24, 69.05it/s]
+2025-08-07 02:38:26,397 - __main__ - INFO - 📦 Parsing descriptions:  65%|██████▍   | 10564/16340 [30:40<01:15, 76.57it/s]
+2025-08-07 02:38:26,497 - __main__ - INFO - 📦 Parsing descriptions:  65%|██████▍   | 10593/16340 [30:40<00:58, 98.61it/s]
+2025-08-07 02:38:26,599 - __main__ - INFO - 📦 Parsing descriptions:  65%|██████▌   | 10621/16340 [30:41<00:46, 122.05it/s]
+2025-08-07 02:38:26,701 - __main__ - INFO - 📦 Parsing descriptions:  65%|██████▌   | 10650/16340 [30:41<00:38, 147.78it/s]
+2025-08-07 02:38:26,804 - __main__ - INFO - 📦 Parsing descriptions:  65%|██████▌   | 10677/16340 [30:41<00:33, 169.22it/s]
+2025-08-07 02:38:26,907 - __main__ - INFO - 📦 Parsing descriptions:  66%|██████▌   | 10706/16340 [30:41<00:29, 193.04it/s]
+2025-08-07 02:38:27,009 - __main__ - INFO - 📦 Parsing descriptions:  66%|██████▌   | 10735/16340 [30:41<00:26, 213.54it/s]
+2025-08-07 02:38:27,112 - __main__ - INFO - 📦 Parsing descriptions:  66%|██████▌   | 10764/16340 [30:41<00:24, 230.90it/s]
+2025-08-07 02:38:27,214 - __main__ - INFO - 📦 Parsing descriptions:  66%|██████▌   | 10793/16340 [30:41<00:22, 244.10it/s]
+2025-08-07 02:38:27,315 - __main__ - INFO - 📦 Parsing descriptions:  66%|██████▌   | 10821/16340 [30:41<00:21, 252.25it/s]
+2025-08-07 02:38:27,418 - __main__ - INFO - 📦 Parsing descriptions:  66%|██████▋   | 10849/16340 [30:41<00:21, 258.85it/s]
+2025-08-07 02:38:27,519 - __main__ - INFO - 📦 Parsing descriptions:  67%|██████▋   | 10877/16340 [30:41<00:20, 262.98it/s]
+2025-08-07 02:38:27,621 - __main__ - INFO - 📦 Parsing descriptions:  67%|██████▋   | 10905/16340 [30:42<00:20, 267.01it/s]
+2025-08-07 02:38:27,724 - __main__ - INFO - 📦 Parsing descriptions:  67%|██████▋   | 10933/16340 [30:42<00:20, 269.14it/s]
+2025-08-07 02:38:27,828 - __main__ - INFO - 📦 Parsing descriptions:  67%|██████▋   | 10962/16340 [30:42<00:19, 273.05it/s]
+2025-08-07 02:38:27,929 - __main__ - INFO - 📦 Parsing descriptions:  67%|██████▋   | 10990/16340 [30:42<00:19, 271.70it/s]
+2025-08-07 02:38:28,031 - __main__ - INFO - 📦 Parsing descriptions:  67%|██████▋   | 11019/16340 [30:42<00:19, 276.54it/s]
+2025-08-07 02:38:28,132 - __main__ - INFO - 📦 Parsing descriptions:  68%|██████▊   | 11047/16340 [30:42<00:19, 275.94it/s]
+2025-08-07 02:38:28,233 - __main__ - INFO - 📦 Parsing descriptions:  68%|██████▊   | 11075/16340 [30:42<00:19, 275.62it/s]
+2025-08-07 02:38:28,336 - __main__ - INFO - 📦 Parsing descriptions:  68%|██████▊   | 11103/16340 [30:42<00:18, 276.24it/s]
+2025-08-07 02:38:28,440 - __main__ - INFO - 📦 Parsing descriptions:  68%|██████▊   | 11131/16340 [30:42<00:18, 275.46it/s]
+2025-08-07 02:38:28,545 - __main__ - INFO - 📦 Parsing descriptions:  68%|██████▊   | 11159/16340 [30:42<00:18, 273.27it/s]
+2025-08-07 02:38:28,650 - __main__ - INFO - 📦 Parsing descriptions:  68%|██████▊   | 11187/16340 [30:43<00:19, 271.04it/s]
+2025-08-07 02:38:28,753 - __main__ - INFO - 📦 Parsing descriptions:  69%|██████▊   | 11215/16340 [30:43<00:18, 270.30it/s]
+2025-08-07 02:38:28,858 - __main__ - INFO - 📦 Parsing descriptions:  69%|██████▉   | 11243/16340 [30:43<00:18, 270.30it/s]
+2025-08-07 02:38:28,960 - __main__ - INFO - 📦 Parsing descriptions:  69%|██████▉   | 11271/16340 [30:43<00:18, 269.20it/s]
+2025-08-07 02:38:29,060 - __main__ - INFO - 📦 Parsing descriptions:  69%|██████▉   | 11298/16340 [30:43<00:18, 268.19it/s]
+2025-08-07 02:38:29,161 - __main__ - INFO - 📦 Parsing descriptions:  69%|██████▉   | 11326/16340 [30:43<00:18, 271.20it/s]
+2025-08-07 02:38:29,267 - __main__ - INFO - 📦 Parsing descriptions:  69%|██████▉   | 11354/16340 [30:43<00:18, 273.48it/s]
+2025-08-07 02:38:29,369 - __main__ - INFO - 📦 Parsing descriptions:  70%|██████▉   | 11382/16340 [30:43<00:18, 270.59it/s]
+2025-08-07 02:38:29,472 - __main__ - INFO - 📦 Parsing descriptions:  70%|██████▉   | 11411/16340 [30:43<00:17, 274.06it/s]
+2025-08-07 02:38:29,575 - __main__ - INFO - 📦 Parsing descriptions:  70%|███████   | 11440/16340 [30:44<00:17, 276.49it/s]
+2025-08-07 02:38:29,682 - __main__ - INFO - 📦 Parsing descriptions:  70%|███████   | 11469/16340 [30:44<00:17, 277.84it/s]
+2025-08-07 02:38:29,787 - __main__ - INFO - 📦 Parsing descriptions:  70%|███████   | 11497/16340 [30:44<00:17, 273.50it/s]
+2025-08-07 02:38:29,888 - __main__ - INFO - 📦 Parsing descriptions:  71%|███████   | 11525/16340 [30:44<00:17, 270.87it/s]
+2025-08-07 02:38:29,990 - __main__ - INFO - 📦 Parsing descriptions:  71%|███████   | 11553/16340 [30:44<00:17, 273.02it/s]
+2025-08-07 02:38:30,091 - __main__ - INFO - 📦 Parsing descriptions:  71%|███████   | 11581/16340 [30:44<00:17, 273.19it/s]
+2025-08-07 02:38:30,192 - __main__ - INFO - 📦 Parsing descriptions:  71%|███████   | 11609/16340 [30:44<00:17, 274.80it/s]
+2025-08-07 02:38:30,294 - __main__ - INFO - 📦 Parsing descriptions:  71%|███████   | 11637/16340 [30:44<00:17, 275.48it/s]
+2025-08-07 02:38:30,396 - __main__ - INFO - 📦 Parsing descriptions:  71%|███████▏  | 11666/16340 [30:44<00:16, 278.17it/s]
+2025-08-07 02:38:30,498 - __main__ - INFO - 📦 Parsing descriptions:  72%|███████▏  | 11695/16340 [30:44<00:16, 279.96it/s]
+2025-08-07 02:38:30,600 - __main__ - INFO - 📦 Parsing descriptions:  72%|███████▏  | 11724/16340 [30:45<00:16, 281.04it/s]
+2025-08-07 02:38:30,707 - __main__ - INFO - 📦 Parsing descriptions:  72%|███████▏  | 11753/16340 [30:45<00:16, 282.14it/s]
+2025-08-07 02:38:30,811 - __main__ - INFO - 📦 Parsing descriptions:  72%|███████▏  | 11782/16340 [30:45<00:16, 278.92it/s]
+2025-08-07 02:38:30,915 - __main__ - INFO - 📦 Parsing descriptions:  72%|███████▏  | 11810/16340 [30:45<00:16, 275.49it/s]
+2025-08-07 02:38:31,017 - __main__ - INFO - 📦 Parsing descriptions:  72%|███████▏  | 11838/16340 [30:45<00:16, 273.71it/s]
+2025-08-07 02:38:31,119 - __main__ - INFO - 📦 Parsing descriptions:  73%|███████▎  | 11866/16340 [30:45<00:16, 273.78it/s]
+2025-08-07 02:38:31,220 - __main__ - INFO - 📦 Parsing descriptions:  73%|███████▎  | 11894/16340 [30:45<00:16, 274.16it/s]
+2025-08-07 02:38:31,321 - __main__ - INFO - 📦 Parsing descriptions:  73%|███████▎  | 11923/16340 [30:45<00:15, 278.02it/s]
+2025-08-07 02:38:31,424 - __main__ - INFO - 📦 Parsing descriptions:  73%|███████▎  | 11951/16340 [30:45<00:15, 278.37it/s]
+2025-08-07 02:38:31,524 - __main__ - INFO - 📦 Parsing descriptions:  73%|███████▎  | 11979/16340 [30:45<00:15, 276.00it/s]
+2025-08-07 02:38:31,626 - __main__ - INFO - 📦 Parsing descriptions:  73%|███████▎  | 12008/16340 [30:46<00:15, 279.74it/s]
+2025-08-07 02:38:31,728 - __main__ - INFO - 📦 Parsing descriptions:  74%|███████▎  | 12037/16340 [30:46<00:15, 281.84it/s]
+2025-08-07 02:38:31,834 - __main__ - INFO - 📦 Parsing descriptions:  74%|███████▍  | 12066/16340 [30:46<00:15, 281.93it/s]
+2025-08-07 02:38:31,936 - __main__ - INFO - 📦 Parsing descriptions:  74%|███████▍  | 12095/16340 [30:46<00:15, 280.10it/s]
+2025-08-07 02:38:32,190 - __main__ - INFO - 📦 Parsing descriptions:  74%|███████▍  | 12124/16340 [30:46<00:15, 280.56it/s]
+2025-08-07 02:38:32,293 - __main__ - INFO - 📦 Parsing descriptions:  74%|███████▍  | 12153/16340 [30:46<00:21, 195.36it/s]
+2025-08-07 02:38:32,394 - __main__ - INFO - 📦 Parsing descriptions:  75%|███████▍  | 12182/16340 [30:46<00:19, 215.17it/s]
+2025-08-07 02:38:32,497 - __main__ - INFO - 📦 Parsing descriptions:  75%|███████▍  | 12211/16340 [30:46<00:17, 232.52it/s]
+2025-08-07 02:38:32,599 - __main__ - INFO - 📦 Parsing descriptions:  75%|███████▍  | 12239/16340 [30:47<00:16, 242.99it/s]
+2025-08-07 02:38:32,701 - __main__ - INFO - 📦 Parsing descriptions:  75%|███████▌  | 12268/16340 [30:47<00:16, 253.95it/s]
+2025-08-07 02:38:32,802 - __main__ - INFO - 📦 Parsing descriptions:  75%|███████▌  | 12297/16340 [30:47<00:15, 262.52it/s]
+2025-08-07 02:38:32,903 - __main__ - INFO - 📦 Parsing descriptions:  75%|███████▌  | 12326/16340 [30:47<00:14, 269.08it/s]
+2025-08-07 02:38:33,005 - __main__ - INFO - 📦 Parsing descriptions:  76%|███████▌  | 12355/16340 [30:47<00:14, 274.51it/s]
+2025-08-07 02:38:33,107 - __main__ - INFO - 📦 Parsing descriptions:  76%|███████▌  | 12384/16340 [30:47<00:14, 277.41it/s]
+2025-08-07 02:38:33,208 - __main__ - INFO - 📦 Parsing descriptions:  76%|███████▌  | 12413/16340 [30:47<00:14, 279.52it/s]
+2025-08-07 02:38:33,309 - __main__ - INFO - 📦 Parsing descriptions:  76%|███████▌  | 12442/16340 [30:47<00:13, 281.56it/s]
+2025-08-07 02:38:33,412 - __main__ - INFO - 📦 Parsing descriptions:  76%|███████▋  | 12471/16340 [30:47<00:13, 283.06it/s]
+2025-08-07 02:38:33,514 - __main__ - INFO - 📦 Parsing descriptions:  76%|███████▋  | 12500/16340 [30:47<00:13, 283.04it/s]
+2025-08-07 02:38:33,616 - __main__ - INFO - 📦 Parsing descriptions:  77%|███████▋  | 12529/16340 [30:48<00:13, 283.61it/s]
+2025-08-07 02:38:33,719 - __main__ - INFO - 📦 Parsing descriptions:  77%|███████▋  | 12558/16340 [30:48<00:13, 283.17it/s]
+2025-08-07 02:38:33,822 - __main__ - INFO - 📦 Parsing descriptions:  77%|███████▋  | 12587/16340 [30:48<00:13, 282.68it/s]
+2025-08-07 02:38:33,928 - __main__ - INFO - 📦 Parsing descriptions:  77%|███████▋  | 12616/16340 [30:48<00:13, 282.60it/s]
+2025-08-07 02:38:34,031 - __main__ - INFO - 📦 Parsing descriptions:  77%|███████▋  | 12645/16340 [30:48<00:13, 279.60it/s]
+2025-08-07 02:38:34,135 - __main__ - INFO - 📦 Parsing descriptions:  78%|███████▊  | 12673/16340 [30:48<00:13, 277.27it/s]
+2025-08-07 02:38:34,237 - __main__ - INFO - 📦 Parsing descriptions:  78%|███████▊  | 12702/16340 [30:48<00:13, 278.36it/s]
+2025-08-07 02:38:34,339 - __main__ - INFO - 📦 Parsing descriptions:  78%|███████▊  | 12731/16340 [30:48<00:12, 279.84it/s]
+2025-08-07 02:38:34,442 - __main__ - INFO - 📦 Parsing descriptions:  78%|███████▊  | 12759/16340 [30:48<00:12, 277.93it/s]
+2025-08-07 02:38:34,547 - __main__ - INFO - 📦 Parsing descriptions:  78%|███████▊  | 12787/16340 [30:48<00:12, 276.11it/s]
+2025-08-07 02:38:34,651 - __main__ - INFO - 📦 Parsing descriptions:  78%|███████▊  | 12815/16340 [30:49<00:12, 273.53it/s]
+2025-08-07 02:38:34,757 - __main__ - INFO - 📦 Parsing descriptions:  79%|███████▊  | 12844/16340 [30:49<00:12, 274.81it/s]
+2025-08-07 02:38:34,859 - __main__ - INFO - 📦 Parsing descriptions:  79%|███████▉  | 12872/16340 [30:49<00:12, 271.89it/s]
+2025-08-07 02:38:34,961 - __main__ - INFO - 📦 Parsing descriptions:  79%|███████▉  | 12900/16340 [30:49<00:12, 272.60it/s]
+2025-08-07 02:38:35,064 - __main__ - INFO - 📦 Parsing descriptions:  79%|███████▉  | 12928/16340 [30:49<00:12, 273.06it/s]
+2025-08-07 02:38:35,165 - __main__ - INFO - 📦 Parsing descriptions:  79%|███████▉  | 12957/16340 [30:49<00:12, 275.82it/s]
+2025-08-07 02:38:35,266 - __main__ - INFO - 📦 Parsing descriptions:  79%|███████▉  | 12985/16340 [30:49<00:12, 275.98it/s]
+2025-08-07 02:38:35,368 - __main__ - INFO - 📦 Parsing descriptions:  80%|███████▉  | 13014/16340 [30:49<00:11, 279.60it/s]
+2025-08-07 02:38:35,483 - __main__ - INFO - 📦 Parsing descriptions:  80%|███████▉  | 13043/16340 [30:49<00:11, 280.81it/s]
+2025-08-07 02:38:35,585 - __main__ - INFO - 📦 Parsing descriptions:  80%|████████  | 13072/16340 [30:50<00:12, 271.45it/s]
+2025-08-07 02:38:35,686 - __main__ - INFO - 📦 Parsing descriptions:  80%|████████  | 13101/16340 [30:50<00:11, 275.05it/s]
+2025-08-07 02:38:35,789 - __main__ - INFO - 📦 Parsing descriptions:  80%|████████  | 13129/16340 [30:50<00:11, 276.14it/s]
+2025-08-07 02:38:35,889 - __main__ - INFO - 📦 Parsing descriptions:  81%|████████  | 13157/16340 [30:50<00:11, 275.03it/s]
+2025-08-07 02:38:35,992 - __main__ - INFO - 📦 Parsing descriptions:  81%|████████  | 13185/16340 [30:50<00:11, 276.27it/s]
+2025-08-07 02:38:36,094 - __main__ - INFO - 📦 Parsing descriptions:  81%|████████  | 13214/16340 [30:50<00:11, 277.59it/s]
+2025-08-07 02:38:36,195 - __main__ - INFO - 📦 Parsing descriptions:  81%|████████  | 13243/16340 [30:50<00:11, 279.51it/s]
+2025-08-07 02:38:36,299 - __main__ - INFO - 📦 Parsing descriptions:  81%|████████  | 13272/16340 [30:50<00:10, 282.31it/s]
+2025-08-07 02:38:36,402 - __main__ - INFO - 📦 Parsing descriptions:  81%|████████▏ | 13301/16340 [30:50<00:10, 280.80it/s]
+2025-08-07 02:38:36,503 - __main__ - INFO - 📦 Parsing descriptions:  82%|████████▏ | 13330/16340 [30:50<00:10, 281.04it/s]
+2025-08-07 02:38:36,605 - __main__ - INFO - 📦 Parsing descriptions:  82%|████████▏ | 13359/16340 [30:51<00:10, 282.97it/s]
+2025-08-07 02:38:36,707 - __main__ - INFO - 📦 Parsing descriptions:  82%|████████▏ | 13388/16340 [30:51<00:10, 283.51it/s]
+2025-08-07 02:38:36,809 - __main__ - INFO - 📦 Parsing descriptions:  82%|████████▏ | 13417/16340 [30:51<00:10, 284.04it/s]
+2025-08-07 02:38:36,913 - __main__ - INFO - 📦 Parsing descriptions:  82%|████████▏ | 13446/16340 [30:51<00:10, 284.12it/s]
+2025-08-07 02:38:37,016 - __main__ - INFO - 📦 Parsing descriptions:  82%|████████▏ | 13475/16340 [30:51<00:10, 281.83it/s]
+2025-08-07 02:38:37,117 - __main__ - INFO - 📦 Parsing descriptions:  83%|████████▎ | 13504/16340 [30:51<00:10, 281.91it/s]
+2025-08-07 02:38:37,219 - __main__ - INFO - 📦 Parsing descriptions:  83%|████████▎ | 13533/16340 [30:51<00:09, 283.80it/s]
+2025-08-07 02:38:37,321 - __main__ - INFO - 📦 Parsing descriptions:  83%|████████▎ | 13562/16340 [30:51<00:09, 283.72it/s]
+2025-08-07 02:38:37,424 - __main__ - INFO - 📦 Parsing descriptions:  83%|████████▎ | 13591/16340 [30:51<00:09, 283.60it/s]
+2025-08-07 02:38:37,525 - __main__ - INFO - 📦 Parsing descriptions:  83%|████████▎ | 13620/16340 [30:51<00:09, 283.28it/s]
+2025-08-07 02:38:37,628 - __main__ - INFO - 📦 Parsing descriptions:  84%|████████▎ | 13649/16340 [30:52<00:09, 284.66it/s]
+2025-08-07 02:38:37,871 - __main__ - INFO - 📦 Parsing descriptions:  84%|████████▎ | 13678/16340 [30:52<00:09, 283.93it/s]
+2025-08-07 02:38:37,974 - __main__ - INFO - 📦 Parsing descriptions:  84%|████████▍ | 13707/16340 [30:52<00:13, 200.78it/s]
+2025-08-07 02:38:38,076 - __main__ - INFO - 📦 Parsing descriptions:  84%|████████▍ | 13737/16340 [30:52<00:11, 221.99it/s]
+2025-08-07 02:38:38,179 - __main__ - INFO - 📦 Parsing descriptions:  84%|████████▍ | 13766/16340 [30:52<00:10, 236.96it/s]
+2025-08-07 02:38:38,281 - __main__ - INFO - 📦 Parsing descriptions:  84%|████████▍ | 13795/16340 [30:52<00:10, 248.89it/s]
+2025-08-07 02:38:38,382 - __main__ - INFO - 📦 Parsing descriptions:  85%|████████▍ | 13824/16340 [30:52<00:09, 258.50it/s]
+2025-08-07 02:38:38,484 - __main__ - INFO - 📦 Parsing descriptions:  85%|████████▍ | 13853/16340 [30:52<00:09, 266.73it/s]
+2025-08-07 02:38:38,588 - __main__ - INFO - 📦 Parsing descriptions:  85%|████████▍ | 13882/16340 [30:53<00:09, 271.35it/s]
+2025-08-07 02:38:38,690 - __main__ - INFO - 📦 Parsing descriptions:  85%|████████▌ | 13911/16340 [30:53<00:08, 273.78it/s]
+2025-08-07 02:38:38,794 - __main__ - INFO - 📦 Parsing descriptions:  85%|████████▌ | 13940/16340 [30:53<00:08, 277.32it/s]
+2025-08-07 02:38:38,901 - __main__ - INFO - 📦 Parsing descriptions:  85%|████████▌ | 13969/16340 [30:53<00:08, 277.48it/s]
+2025-08-07 02:38:39,002 - __main__ - INFO - 📦 Parsing descriptions:  86%|████████▌ | 13998/16340 [30:53<00:08, 275.81it/s]
+2025-08-07 02:38:39,106 - __main__ - INFO - 📦 Parsing descriptions:  86%|████████▌ | 14027/16340 [30:53<00:08, 278.91it/s]
+2025-08-07 02:38:39,210 - __main__ - INFO - 📦 Parsing descriptions:  86%|████████▌ | 14056/16340 [30:53<00:08, 278.34it/s]
+2025-08-07 02:38:39,311 - __main__ - INFO - 📦 Parsing descriptions:  86%|████████▌ | 14085/16340 [30:53<00:08, 279.08it/s]
+2025-08-07 02:38:39,413 - __main__ - INFO - 📦 Parsing descriptions:  86%|████████▋ | 14114/16340 [30:53<00:07, 281.47it/s]
+2025-08-07 02:38:39,517 - __main__ - INFO - 📦 Parsing descriptions:  87%|████████▋ | 14143/16340 [30:53<00:07, 282.43it/s]
+2025-08-07 02:38:39,620 - __main__ - INFO - 📦 Parsing descriptions:  87%|████████▋ | 14172/16340 [30:54<00:07, 280.89it/s]
+2025-08-07 02:38:39,722 - __main__ - INFO - 📦 Parsing descriptions:  87%|████████▋ | 14201/16340 [30:54<00:07, 281.23it/s]
+2025-08-07 02:38:39,825 - __main__ - INFO - 📦 Parsing descriptions:  87%|████████▋ | 14230/16340 [30:54<00:07, 282.35it/s]
+2025-08-07 02:38:39,932 - __main__ - INFO - 📦 Parsing descriptions:  87%|████████▋ | 14259/16340 [30:54<00:07, 282.13it/s]
+2025-08-07 02:38:40,033 - __main__ - INFO - 📦 Parsing descriptions:  87%|████████▋ | 14288/16340 [30:54<00:07, 278.28it/s]
+2025-08-07 02:38:40,135 - __main__ - INFO - 📦 Parsing descriptions:  88%|████████▊ | 14316/16340 [30:54<00:07, 278.49it/s]
+2025-08-07 02:38:40,236 - __main__ - INFO - 📦 Parsing descriptions:  88%|████████▊ | 14344/16340 [30:54<00:07, 276.69it/s]
+2025-08-07 02:38:40,337 - __main__ - INFO - 📦 Parsing descriptions:  88%|████████▊ | 14372/16340 [30:54<00:07, 277.54it/s]
+2025-08-07 02:38:40,439 - __main__ - INFO - 📦 Parsing descriptions:  88%|████████▊ | 14400/16340 [30:54<00:06, 277.44it/s]
+2025-08-07 02:38:40,540 - __main__ - INFO - 📦 Parsing descriptions:  88%|████████▊ | 14429/16340 [30:54<00:06, 278.72it/s]
+2025-08-07 02:38:40,642 - __main__ - INFO - 📦 Parsing descriptions:  88%|████████▊ | 14458/16340 [30:55<00:06, 281.35it/s]
+2025-08-07 02:38:40,744 - __main__ - INFO - 📦 Parsing descriptions:  89%|████████▊ | 14487/16340 [30:55<00:06, 282.15it/s]
+2025-08-07 02:38:40,845 - __main__ - INFO - 📦 Parsing descriptions:  89%|████████▉ | 14516/16340 [30:55<00:06, 283.21it/s]
+2025-08-07 02:38:40,947 - __main__ - INFO - 📦 Parsing descriptions:  89%|████████▉ | 14545/16340 [30:55<00:06, 284.53it/s]
+2025-08-07 02:38:41,049 - __main__ - INFO - 📦 Parsing descriptions:  89%|████████▉ | 14574/16340 [30:55<00:06, 284.49it/s]
+2025-08-07 02:38:41,151 - __main__ - INFO - 📦 Parsing descriptions:  89%|████████▉ | 14603/16340 [30:55<00:06, 284.34it/s]
+2025-08-07 02:38:41,253 - __main__ - INFO - 📦 Parsing descriptions:  90%|████████▉ | 14632/16340 [30:55<00:06, 284.20it/s]
+2025-08-07 02:38:41,354 - __main__ - INFO - 📦 Parsing descriptions:  90%|████████▉ | 14661/16340 [30:55<00:05, 284.60it/s]
+2025-08-07 02:38:41,460 - __main__ - INFO - 📦 Parsing descriptions:  90%|████████▉ | 14690/16340 [30:55<00:05, 284.64it/s]
+2025-08-07 02:38:41,562 - __main__ - INFO - 📦 Parsing descriptions:  90%|█████████ | 14719/16340 [30:56<00:05, 281.49it/s]
+2025-08-07 02:38:41,667 - __main__ - INFO - 📦 Parsing descriptions:  90%|█████████ | 14748/16340 [30:56<00:05, 282.25it/s]
+2025-08-07 02:38:41,770 - __main__ - INFO - 📦 Parsing descriptions:  90%|█████████ | 14777/16340 [30:56<00:05, 280.50it/s]
+2025-08-07 02:38:41,870 - __main__ - INFO - 📦 Parsing descriptions:  91%|█████████ | 14806/16340 [30:56<00:05, 281.14it/s]
+2025-08-07 02:38:41,972 - __main__ - INFO - 📦 Parsing descriptions:  91%|█████████ | 14835/16340 [30:56<00:05, 283.59it/s]
+2025-08-07 02:38:42,076 - __main__ - INFO - 📦 Parsing descriptions:  91%|█████████ | 14864/16340 [30:56<00:05, 283.63it/s]
+2025-08-07 02:38:42,178 - __main__ - INFO - 📦 Parsing descriptions:  91%|█████████ | 14893/16340 [30:56<00:05, 281.89it/s]
+2025-08-07 02:38:42,278 - __main__ - INFO - 📦 Parsing descriptions:  91%|█████████▏| 14922/16340 [30:56<00:05, 283.35it/s]
+2025-08-07 02:38:42,382 - __main__ - INFO - 📦 Parsing descriptions:  91%|█████████▏| 14951/16340 [30:56<00:04, 284.58it/s]
+2025-08-07 02:38:42,485 - __main__ - INFO - 📦 Parsing descriptions:  92%|█████████▏| 14980/16340 [30:56<00:04, 283.38it/s]
+2025-08-07 02:38:42,589 - __main__ - INFO - 📦 Parsing descriptions:  92%|█████████▏| 15009/16340 [30:57<00:04, 282.87it/s]
+2025-08-07 02:38:42,694 - __main__ - INFO - 📦 Parsing descriptions:  92%|█████████▏| 15038/16340 [30:57<00:04, 281.74it/s]
+2025-08-07 02:38:42,797 - __main__ - INFO - 📦 Parsing descriptions:  92%|█████████▏| 15067/16340 [30:57<00:04, 279.52it/s]
+2025-08-07 02:38:42,902 - __main__ - INFO - 📦 Parsing descriptions:  92%|█████████▏| 15096/16340 [30:57<00:04, 280.37it/s]
+2025-08-07 02:38:43,005 - __main__ - INFO - 📦 Parsing descriptions:  93%|█████████▎| 15125/16340 [30:57<00:04, 279.29it/s]
+2025-08-07 02:38:43,109 - __main__ - INFO - 📦 Parsing descriptions:  93%|█████████▎| 15153/16340 [30:57<00:04, 277.26it/s]
+2025-08-07 02:38:43,346 - __main__ - INFO - 📦 Parsing descriptions:  93%|█████████▎| 15182/16340 [30:57<00:04, 277.42it/s]
+2025-08-07 02:38:43,446 - __main__ - INFO - 📦 Parsing descriptions:  93%|█████████▎| 15210/16340 [30:57<00:05, 198.69it/s]
+2025-08-07 02:38:43,547 - __main__ - INFO - 📦 Parsing descriptions:  93%|█████████▎| 15236/16340 [30:57<00:05, 212.76it/s]
+2025-08-07 02:38:43,775 - __main__ - INFO - 📦 Parsing descriptions:  93%|█████████▎| 15264/16340 [30:58<00:04, 228.64it/s]
+2025-08-07 02:38:43,877 - __main__ - INFO - 📦 Parsing descriptions:  94%|█████████▎| 15290/16340 [30:58<00:05, 177.54it/s]
+2025-08-07 02:38:43,981 - __main__ - INFO - 📦 Parsing descriptions:  94%|█████████▎| 15318/16340 [30:58<00:05, 199.32it/s]
+2025-08-07 02:38:44,084 - __main__ - INFO - 📦 Parsing descriptions:  94%|█████████▍| 15347/16340 [30:58<00:04, 218.81it/s]
+2025-08-07 02:38:44,188 - __main__ - INFO - 📦 Parsing descriptions:  94%|█████████▍| 15377/16340 [30:58<00:04, 237.28it/s]
+2025-08-07 02:38:44,287 - __main__ - INFO - 📦 Parsing descriptions:  94%|█████████▍| 15405/16340 [30:58<00:03, 248.14it/s]
+2025-08-07 02:38:44,388 - __main__ - INFO - 📦 Parsing descriptions:  94%|█████████▍| 15433/16340 [30:58<00:03, 254.89it/s]
+2025-08-07 02:38:44,490 - __main__ - INFO - 📦 Parsing descriptions:  95%|█████████▍| 15462/16340 [30:58<00:03, 264.27it/s]
+2025-08-07 02:38:44,592 - __main__ - INFO - 📦 Parsing descriptions:  95%|█████████▍| 15491/16340 [30:59<00:03, 269.93it/s]
+2025-08-07 02:38:44,692 - __main__ - INFO - 📦 Parsing descriptions:  95%|█████████▍| 15520/16340 [30:59<00:02, 274.13it/s]
+2025-08-07 02:38:44,798 - __main__ - INFO - 📦 Parsing descriptions:  95%|█████████▌| 15549/16340 [30:59<00:02, 278.34it/s]
+2025-08-07 02:38:44,900 - __main__ - INFO - 📦 Parsing descriptions:  95%|█████████▌| 15578/16340 [30:59<00:02, 277.43it/s]
+2025-08-07 02:38:45,002 - __main__ - INFO - 📦 Parsing descriptions:  96%|█████████▌| 15606/16340 [30:59<00:02, 276.49it/s]
+2025-08-07 02:38:45,104 - __main__ - INFO - 📦 Parsing descriptions:  96%|█████████▌| 15635/16340 [30:59<00:02, 278.48it/s]
+2025-08-07 02:38:45,206 - __main__ - INFO - 📦 Parsing descriptions:  96%|█████████▌| 15663/16340 [30:59<00:02, 277.24it/s]
+2025-08-07 02:38:45,308 - __main__ - INFO - 📦 Parsing descriptions:  96%|█████████▌| 15691/16340 [30:59<00:02, 276.22it/s]
+2025-08-07 02:38:45,413 - __main__ - INFO - 📦 Parsing descriptions:  96%|█████████▌| 15719/16340 [30:59<00:02, 276.06it/s]
+2025-08-07 02:38:45,518 - __main__ - INFO - 📦 Parsing descriptions:  96%|█████████▋| 15748/16340 [30:59<00:02, 276.46it/s]
+2025-08-07 02:38:45,620 - __main__ - INFO - 📦 Parsing descriptions:  97%|█████████▋| 15776/16340 [31:00<00:02, 273.33it/s]
+2025-08-07 02:38:45,721 - __main__ - INFO - 📦 Parsing descriptions:  97%|█████████▋| 15806/16340 [31:00<00:01, 278.90it/s]
+2025-08-07 02:38:45,823 - __main__ - INFO - 📦 Parsing descriptions:  97%|█████████▋| 15834/16340 [31:00<00:01, 279.03it/s]
+2025-08-07 02:38:45,925 - __main__ - INFO - 📦 Parsing descriptions:  97%|█████████▋| 15864/16340 [31:00<00:01, 282.98it/s]
+2025-08-07 02:38:46,025 - __main__ - INFO - 📦 Parsing descriptions:  97%|█████████▋| 15894/16340 [31:00<00:01, 286.51it/s]
+2025-08-07 02:38:46,128 - __main__ - INFO - 📦 Parsing descriptions:  97%|█████████▋| 15924/16340 [31:00<00:01, 290.40it/s]
+2025-08-07 02:38:46,231 - __main__ - INFO - 📦 Parsing descriptions:  98%|█████████▊| 15955/16340 [31:00<00:01, 293.65it/s]
+2025-08-07 02:38:46,334 - __main__ - INFO - 📦 Parsing descriptions:  98%|█████████▊| 15986/16340 [31:00<00:01, 295.70it/s]
+2025-08-07 02:38:46,437 - __main__ - INFO - 📦 Parsing descriptions:  98%|█████████▊| 16017/16340 [31:00<00:01, 297.40it/s]
+2025-08-07 02:38:46,540 - __main__ - INFO - 📦 Parsing descriptions:  98%|█████████▊| 16048/16340 [31:00<00:00, 298.49it/s]
+2025-08-07 02:38:46,644 - __main__ - INFO - 📦 Parsing descriptions:  98%|█████████▊| 16079/16340 [31:01<00:00, 299.15it/s]
+2025-08-07 02:38:46,747 - __main__ - INFO - 📦 Parsing descriptions:  99%|█████████▊| 16109/16340 [31:01<00:00, 296.60it/s]
+2025-08-07 02:38:46,850 - __main__ - INFO - 📦 Parsing descriptions:  99%|█████████▉| 16139/16340 [31:01<00:00, 294.62it/s]
+2025-08-07 02:38:46,956 - __main__ - INFO - 📦 Parsing descriptions:  99%|█████████▉| 16170/16340 [31:01<00:00, 296.38it/s]
+2025-08-07 02:38:47,062 - __main__ - INFO - 📦 Parsing descriptions:  99%|█████████▉| 16200/16340 [31:01<00:00, 292.71it/s]
+2025-08-07 02:38:47,162 - __main__ - INFO - 📦 Parsing descriptions:  99%|█████████▉| 16230/16340 [31:01<00:00, 289.42it/s]
+2025-08-07 02:38:47,266 - __main__ - INFO - 📦 Parsing descriptions: 100%|█████████▉| 16260/16340 [31:01<00:00, 292.47it/s]
+2025-08-07 02:38:47,368 - __main__ - INFO - 📦 Parsing descriptions: 100%|█████████▉| 16291/16340 [31:01<00:00, 294.21it/s]
+2025-08-07 02:38:47,435 - __main__ - INFO - 📦 Parsing descriptions: 100%|█████████▉| 16321/16340 [31:01<00:00, 294.10it/s]
+2025-08-07 02:38:47,435 - __main__ - INFO - 📦 Parsing descriptions: 100%|██████████| 16340/16340 [31:01<00:00,  8.78it/s]
+2025-08-07 02:38:51,964 - __main__ - INFO - 📦 ✅ Parsed and saved: /Users/noahgans/Desktop/comunity_view_backend/tile_cycle/teton_county_wy_data_files/teton_county_wy_ownership_complete.geojson
+2025-08-07 02:38:51,965 - __main__ - INFO - 📦 ✅ Parsed descriptions for Teton County
+2025-08-07 02:38:51,965 - __main__ - INFO - 📦 📊 Standardizing data for teton_county_wy
+2025-08-07 02:38:51,965 - __main__ - INFO - 📦 📁 Reading from: /Users/noahgans/Desktop/comunity_view_backend/tile_cycle/teton_county_wy_data_files/teton_county_wy_ownership_complete.geojson
+2025-08-07 02:38:51,965 - __main__ - INFO - 📦 ✅ Successfully read file with utf-8 encoding
+2025-08-07 02:38:51,965 - __main__ - INFO - 📦 Standardizing teton_county_wy data...
+2025-08-07 02:38:51,965 - __main__ - INFO - 📦 Detected coordinate system: EPSG:4326
+2025-08-07 02:38:51,965 - __main__ - INFO - 📦 ✅ Coordinates already in WGS84 format
+2025-08-07 02:38:51,965 - __main__ - INFO - 📦 🔄 Converting 3D coordinates to 2D...
+2025-08-07 02:38:51,965 - __main__ - INFO - 📦 ✅ 3D to 2D conversion complete
+2025-08-07 02:38:51,965 - __main__ - INFO - 📦 
+2025-08-07 02:38:52,138 - __main__ - INFO - 📦 Standardizing features:   0%|          | 0/16340 [00:00<?, ?it/s]
+2025-08-07 02:38:52,221 - __main__ - INFO - 📦 Standardizing features:   4%|▍         | 644/16340 [00:00<00:04, 3701.81it/s]
+2025-08-07 02:38:52,222 - __main__ - INFO - 📦 Standardizing features: 100%|██████████| 16340/16340 [00:00<00:00, 63426.02it/s]
+2025-08-07 02:53:59,670 - __main__ - INFO - 📦 Copying file:///Users/noahgans/Desktop/comunity_view_backend/tile_cycle/geojsons_for_db_upload/teton_county_wy_data_files/teton_county_wy_final_ownership.geojson [Content-Type=application/octet-stream]...
+2025-08-07 02:53:59,672 - __main__ - INFO - 📦 / [0 files][    0.0 B/156.9 MiB]
+2025-08-07 02:53:59,672 - __main__ - INFO - 📦 If you experience problems with multiprocessing on MacOS, they might be related to https://bugs.python.org/issue33725. You can disable multiprocessing by editing your .boto config or by adding the following flag to your command: `-o "GSUtil:parallel_process_count=1"`. Note that multithreading is still available even if you disable multiprocessing.
+2025-08-07 02:53:59,672 - __main__ - INFO - 📦 
+2025-08-07 02:54:00,682 - __main__ - INFO - 📦 -
+2025-08-07 02:54:00,932 - __main__ - INFO - 📦 - [0 files][  2.3 MiB/156.9 MiB]
+2025-08-07 02:54:01,596 - __main__ - INFO - 📦 \
+2025-08-07 02:54:01,700 - __main__ - INFO - 📦 |
+2025-08-07 02:54:02,262 - __main__ - INFO - 📦 | [0 files][  6.2 MiB/156.9 MiB]
+2025-08-07 02:54:02,729 - __main__ - INFO - 📦 /
+2025-08-07 02:54:02,935 - __main__ - INFO - 📦 / [0 files][  9.8 MiB/156.9 MiB]
+2025-08-07 02:54:03,604 - __main__ - INFO - 📦 -
+2025-08-07 02:54:03,772 - __main__ - INFO - 📦 \
+2025-08-07 02:54:04,288 - __main__ - INFO - 📦 \ [0 files][ 13.7 MiB/156.9 MiB]
+2025-08-07 02:54:04,824 - __main__ - INFO - 📦 |
+2025-08-07 02:54:04,920 - __main__ - INFO - 📦 | [0 files][ 16.8 MiB/156.9 MiB]
+2025-08-07 02:54:05,682 - __main__ - INFO - 📦 /
+2025-08-07 02:54:05,963 - __main__ - INFO - 📦 -
+2025-08-07 02:54:06,351 - __main__ - INFO - 📦 - [0 files][ 20.6 MiB/156.9 MiB]
+2025-08-07 02:54:06,980 - __main__ - INFO - 📦 \
+2025-08-07 02:54:06,981 - __main__ - INFO - 📦 \ [0 files][ 23.7 MiB/156.9 MiB]
+2025-08-07 02:54:07,613 - __main__ - INFO - 📦 |
+2025-08-07 02:54:08,094 - __main__ - INFO - 📦 /
+2025-08-07 02:54:08,220 - __main__ - INFO - 📦 / [0 files][ 26.8 MiB/156.9 MiB]
+2025-08-07 02:54:08,930 - __main__ - INFO - 📦 -
+2025-08-07 02:54:09,269 - __main__ - INFO - 📦 \
+2025-08-07 02:54:09,586 - __main__ - INFO - 📦 \ [0 files][ 30.7 MiB/156.9 MiB]
+2025-08-07 02:54:10,224 - __main__ - INFO - 📦 |
+2025-08-07 02:54:10,311 - __main__ - INFO - 📦 /
+2025-08-07 02:54:10,884 - __main__ - INFO - 📦 / [0 files][ 34.0 MiB/156.9 MiB]
+2025-08-07 02:54:11,435 - __main__ - INFO - 📦 -
+2025-08-07 02:54:11,501 - __main__ - INFO - 📦 - [0 files][ 37.9 MiB/156.9 MiB]    3.2 MiB/s
+2025-08-07 02:54:12,105 - __main__ - INFO - 📦 \
+2025-08-07 02:54:12,483 - __main__ - INFO - 📦 |
+2025-08-07 02:54:12,731 - __main__ - INFO - 📦 | [0 files][ 41.2 MiB/156.9 MiB]    3.2 MiB/s
+2025-08-07 02:54:13,448 - __main__ - INFO - 📦 /
+2025-08-07 02:54:13,516 - __main__ - INFO - 📦 -
+2025-08-07 02:54:14,056 - __main__ - INFO - 📦 - [0 files][ 44.1 MiB/156.9 MiB]    3.2 MiB/s
+2025-08-07 02:54:14,605 - __main__ - INFO - 📦 \
+2025-08-07 02:54:14,875 - __main__ - INFO - 📦 \ [0 files][ 47.4 MiB/156.9 MiB]    3.1 MiB/s
+2025-08-07 02:54:15,594 - __main__ - INFO - 📦 |
+2025-08-07 02:54:15,668 - __main__ - INFO - 📦 /
+2025-08-07 02:54:16,278 - __main__ - INFO - 📦 / [0 files][ 50.0 MiB/156.9 MiB]    3.0 MiB/s
+2025-08-07 02:54:16,677 - __main__ - INFO - 📦 -
+2025-08-07 02:54:16,878 - __main__ - INFO - 📦 - [0 files][ 53.6 MiB/156.9 MiB]    3.0 MiB/s
+2025-08-07 02:54:17,579 - __main__ - INFO - 📦 \
+2025-08-07 02:54:17,699 - __main__ - INFO - 📦 |
+2025-08-07 02:54:18,199 - __main__ - INFO - 📦 | [0 files][ 56.7 MiB/156.9 MiB]    3.1 MiB/s
+2025-08-07 02:54:18,771 - __main__ - INFO - 📦 /
+2025-08-07 02:54:18,834 - __main__ - INFO - 📦 / [0 files][ 60.1 MiB/156.9 MiB]    3.0 MiB/s
+2025-08-07 02:54:19,482 - __main__ - INFO - 📦 -
+2025-08-07 02:54:19,798 - __main__ - INFO - 📦 \
+2025-08-07 02:54:20,088 - __main__ - INFO - 📦 \ [0 files][ 63.2 MiB/156.9 MiB]    3.1 MiB/s
+2025-08-07 02:54:20,689 - __main__ - INFO - 📦 |
+2025-08-07 02:54:20,917 - __main__ - INFO - 📦 /
+2025-08-07 02:54:21,485 - __main__ - INFO - 📦 / [0 files][ 66.5 MiB/156.9 MiB]    3.2 MiB/s
+2025-08-07 02:54:22,834 - __main__ - INFO - 📦 -
+2025-08-07 02:54:22,834 - __main__ - INFO - 📦 - [0 files][ 68.6 MiB/156.9 MiB]    2.3 MiB/s
+2025-08-07 02:54:24,052 - __main__ - INFO - 📦 \
+2025-08-07 02:54:24,053 - __main__ - INFO - 📦 \ [0 files][ 69.6 MiB/156.9 MiB]    1.7 MiB/s
+2025-08-07 03:23:43,513 - __main__ - INFO - 📦 |
+2025-08-07 03:23:43,515 - __main__ - INFO - 📦 | [0 files][ 70.1 MiB/156.9 MiB]      0.0 B/s
+2025-08-07 03:23:44,235 - __main__ - INFO - 📦 /
+2025-08-07 03:23:45,625 - __main__ - INFO - 📦 -
+2025-08-07 03:23:45,625 - __main__ - INFO - 📦 - [0 files][ 70.1 MiB/156.9 MiB]      0.0 B/s
+2025-08-07 03:39:11,301 - __main__ - INFO - 📦 \
+2025-08-07 03:39:11,301 - __main__ - INFO - 📦 \ [0 files][ 69.8 MiB/156.9 MiB]      0.0 B/s
+2025-08-07 03:39:12,038 - __main__ - INFO - 📦 |
+2025-08-07 03:39:12,394 - __main__ - INFO - 📦 /
+2025-08-07 03:39:12,672 - __main__ - INFO - 📦 / [0 files][ 71.9 MiB/156.9 MiB]    1.9 MiB/s
+2025-08-07 03:39:13,333 - __main__ - INFO - 📦 -
+2025-08-07 03:39:13,446 - __main__ - INFO - 📦 \
+2025-08-07 03:39:13,933 - __main__ - INFO - 📦 \ [0 files][ 74.9 MiB/156.9 MiB]    2.4 MiB/s
+2025-08-07 03:39:14,505 - __main__ - INFO - 📦 |
+2025-08-07 03:39:14,557 - __main__ - INFO - 📦 | [0 files][ 79.6 MiB/156.9 MiB]    3.0 MiB/s
+2025-08-07 03:39:15,175 - __main__ - INFO - 📦 /
+2025-08-07 03:39:15,580 - __main__ - INFO - 📦 -
+2025-08-07 03:39:15,849 - __main__ - INFO - 📦 - [0 files][ 83.7 MiB/156.9 MiB]    3.2 MiB/s
+2025-08-07 03:39:16,484 - __main__ - INFO - 📦 \
+2025-08-07 03:39:16,662 - __main__ - INFO - 📦 |
+2025-08-07 03:39:17,086 - __main__ - INFO - 📦 | [0 files][ 87.6 MiB/156.9 MiB]    3.4 MiB/s
+2025-08-07 03:39:17,731 - __main__ - INFO - 📦 /
+2025-08-07 03:39:17,731 - __main__ - INFO - 📦 / [0 files][ 90.9 MiB/156.9 MiB]    3.8 MiB/s
+2025-08-07 03:39:18,340 - __main__ - INFO - 📦 -
+2025-08-07 03:39:18,744 - __main__ - INFO - 📦 \
+2025-08-07 03:39:19,033 - __main__ - INFO - 📦 \ [0 files][ 94.5 MiB/156.9 MiB]    3.5 MiB/s
+2025-08-07 03:39:19,688 - __main__ - INFO - 📦 |
+2025-08-07 03:39:19,750 - __main__ - INFO - 📦 /
+2025-08-07 03:39:20,335 - __main__ - INFO - 📦 / [0 files][ 98.6 MiB/156.9 MiB]    3.6 MiB/s
+2025-08-07 03:39:20,930 - __main__ - INFO - 📦 -
+2025-08-07 03:39:20,935 - __main__ - INFO - 📦 - [0 files][102.5 MiB/156.9 MiB]    3.5 MiB/s
+2025-08-07 03:39:21,566 - __main__ - INFO - 📦 \
+2025-08-07 03:39:22,016 - __main__ - INFO - 📦 |
+2025-08-07 03:39:22,260 - __main__ - INFO - 📦 | [0 files][106.1 MiB/156.9 MiB]    3.5 MiB/s
+2025-08-07 03:39:22,981 - __main__ - INFO - 📦 /
+2025-08-07 03:39:23,044 - __main__ - INFO - 📦 -
+2025-08-07 03:39:23,622 - __main__ - INFO - 📦 - [0 files][110.2 MiB/156.9 MiB]    3.6 MiB/s
+2025-08-07 03:39:24,078 - __main__ - INFO - 📦 \
+2025-08-07 03:39:24,246 - __main__ - INFO - 📦 \ [0 files][113.8 MiB/156.9 MiB]    3.6 MiB/s
+2025-08-07 03:39:24,855 - __main__ - INFO - 📦 |
+2025-08-07 03:39:25,118 - __main__ - INFO - 📦 /
+2025-08-07 03:39:25,490 - __main__ - INFO - 📦 / [0 files][118.0 MiB/156.9 MiB]    3.6 MiB/s
+2025-08-07 03:39:26,096 - __main__ - INFO - 📦 -
+2025-08-07 03:39:26,336 - __main__ - INFO - 📦 \
+2025-08-07 03:39:26,812 - __main__ - INFO - 📦 \ [0 files][121.8 MiB/156.9 MiB]    3.6 MiB/s
+2025-08-07 03:39:27,401 - __main__ - INFO - 📦 |
+2025-08-07 03:39:27,423 - __main__ - INFO - 📦 | [0 files][125.2 MiB/156.9 MiB]    3.5 MiB/s
+2025-08-07 03:39:28,097 - __main__ - INFO - 📦 /
+2025-08-07 03:39:28,601 - __main__ - INFO - 📦 -
+2025-08-07 03:39:28,714 - __main__ - INFO - 📦 - [0 files][128.0 MiB/156.9 MiB]    3.2 MiB/s
+2025-08-07 03:39:29,485 - __main__ - INFO - 📦 \
+2025-08-07 03:39:29,606 - __main__ - INFO - 📦 |
+2025-08-07 03:39:30,145 - __main__ - INFO - 📦 | [0 files][130.9 MiB/156.9 MiB]    3.0 MiB/s
+2025-08-07 03:39:30,640 - __main__ - INFO - 📦 /
+2025-08-07 03:39:30,991 - __main__ - INFO - 📦 / [0 files][132.7 MiB/156.9 MiB]    2.6 MiB/s
+2025-08-07 03:39:31,649 - __main__ - INFO - 📦 -
+2025-08-07 03:39:31,649 - __main__ - INFO - 📦 - [0 files][133.7 MiB/156.9 MiB]    2.0 MiB/s
+2025-08-07 03:39:32,681 - __main__ - INFO - 📦 \
+2025-08-07 03:39:32,682 - __main__ - INFO - 📦 \ [0 files][134.5 MiB/156.9 MiB]    1.7 MiB/s
+2025-08-07 03:39:33,353 - __main__ - INFO - 📦 |
+2025-08-07 03:39:34,045 - __main__ - INFO - 📦 /
+2025-08-07 03:39:34,045 - __main__ - INFO - 📦 / [0 files][135.5 MiB/156.9 MiB]    1.2 MiB/s
+2025-08-07 03:39:35,333 - __main__ - INFO - 📦 -
+2025-08-07 03:39:35,333 - __main__ - INFO - 📦 - [0 files][136.5 MiB/156.9 MiB]  908.6 KiB/s
+2025-08-07 03:39:36,578 - __main__ - INFO - 📦 \
+2025-08-07 03:39:36,578 - __main__ - INFO - 📦 \ [0 files][137.6 MiB/156.9 MiB]  803.4 KiB/s
+2025-08-07 03:39:37,294 - __main__ - INFO - 📦 |
+2025-08-07 03:39:37,687 - __main__ - INFO - 📦 /
+2025-08-07 03:39:37,978 - __main__ - INFO - 📦 / [0 files][138.6 MiB/156.9 MiB]  848.1 KiB/s
+2025-08-07 03:39:38,631 - __main__ - INFO - 📦 -
+2025-08-07 03:39:38,843 - __main__ - INFO - 📦 \
+2025-08-07 03:39:39,371 - __main__ - INFO - 📦 \ [0 files][140.9 MiB/156.9 MiB]    1.1 MiB/s
+2025-08-07 03:39:39,879 - __main__ - INFO - 📦 |
+2025-08-07 03:39:40,031 - __main__ - INFO - 📦 | [0 files][143.0 MiB/156.9 MiB]    1.4 MiB/s
+2025-08-07 03:39:40,642 - __main__ - INFO - 📦 /
+2025-08-07 03:39:41,196 - __main__ - INFO - 📦 -
+2025-08-07 03:39:41,251 - __main__ - INFO - 📦 - [0 files][145.9 MiB/156.9 MiB]    1.8 MiB/s
+2025-08-07 03:39:41,993 - __main__ - INFO - 📦 \
+2025-08-07 03:39:42,341 - __main__ - INFO - 📦 |
+2025-08-07 03:54:48,968 - __main__ - INFO - 📦 | [0 files][148.2 MiB/156.9 MiB]    2.0 MiB/s
+2025-08-07 03:54:48,968 - __main__ - INFO - 📦 | [0 files][148.7 MiB/156.9 MiB]      0.0 B/s
+2025-08-07 03:54:49,600 - __main__ - INFO - 📦 /
+2025-08-07 03:54:50,168 - __main__ - INFO - 📦 -
+2025-08-07 03:54:50,213 - __main__ - INFO - 📦 - [0 files][151.1 MiB/156.9 MiB]    1.9 MiB/s
+2025-08-07 03:54:50,865 - __main__ - INFO - 📦 \
+2025-08-07 03:54:51,256 - __main__ - INFO - 📦 |
+2025-08-07 03:54:51,492 - __main__ - INFO - 📦 | [0 files][155.3 MiB/156.9 MiB]    2.8 MiB/s
+2025-08-07 03:54:52,158 - __main__ - INFO - 📦 /
+2025-08-07 04:25:00,769 - __main__ - INFO - 📦 -
+2025-08-07 04:25:00,770 - __main__ - INFO - 📦 If you experience problems with multiprocessing on MacOS, they might be related to https://bugs.python.org/issue33725. You can disable multiprocessing by editing your .boto config or by adding the following flag to your command: `-o "GSUtil:parallel_process_count=1"`. Note that multithreading is still available even if you disable multiprocessing.
+2025-08-07 04:25:00,770 - __main__ - INFO - 📦 
+2025-08-07 04:25:00,778 - __main__ - INFO - 📦 - [0 files][156.9 MiB/156.9 MiB]      0.0 B/s
+2025-08-07 04:25:01,174 - __main__ - INFO - 📦 \
+2025-08-07 04:25:01,175 - __main__ - INFO - 📦 \ [1 files][156.9 MiB/156.9 MiB]      0.0 B/s
+2025-08-07 04:25:01,175 - __main__ - INFO - 📦 Operation completed over 1 objects/156.9 MiB.
+2025-08-07 07:56:52,428 - __main__ - INFO - 🛑 Daemon stopped by user
