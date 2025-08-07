@@ -125,10 +125,10 @@ def create_search_index():
         "teton_county_wy"
     ]
     
-    # Base path for GeoJSON files - navigate to tile_cycle from search_api
+    # Base path for GeoJSON files - navigate to tile_processing from search_api
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
-    base_path = project_root / "tile_cycle" / "geojsons_for_db_upload"
+    base_path = project_root / "tile_processing" / "geojsons_for_db_upload"
     
     # Initialize the search index
     search_index = []
