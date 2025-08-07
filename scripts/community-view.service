@@ -5,11 +5,11 @@ Wants=postgresql.service
 
 [Service]
 Type=simple
-User=ubuntu
-Group=ubuntu
-WorkingDirectory=/home/ubuntu/comunity_view_backend
-Environment=PATH=/home/ubuntu/comunity_view_backend/venv/bin:/usr/local/bin:/usr/bin:/bin
-ExecStart=/home/ubuntu/comunity_view_backend/venv/bin/python /home/ubuntu/comunity_view_backend/community_view_manager.py daemon
+User=noahgans00
+Group=noahgans00
+WorkingDirectory=/home/noahgans00/comunity_view_backend
+Environment=PATH=/home/noahgans00/comunity_view_backend/venv/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/home/noahgans00/comunity_view_backend/venv/bin/python /home/noahgans00/comunity_view_backend/community_view_manager.py daemon
 ExecReload=/bin/kill -HUP $MAINPID
 Restart=always
 RestartSec=10

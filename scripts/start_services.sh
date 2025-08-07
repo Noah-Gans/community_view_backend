@@ -32,7 +32,7 @@ fi
 
 # Start Search API
 echo -e "${YELLOW}🔍 Starting Search API...${NC}"
-python search_api/start_api.py &
+nohup python search_api/app.py > logs/search_api.log 2>&1 &
 SEARCH_API_PID=$!
 echo "Search API PID: $SEARCH_API_PID"
 
@@ -48,19 +48,47 @@ else
     exit 1
 fi
 
-# Skip Tegola startup - managed manually on VM
-echo -e "${YELLOW}🗺️  Skipping Tegola startup (managed manually)${NC}"
-TEGOLA_PID=""
+# Start Tegola Server
+echo -e "${YELLOW}🗺️ Starting Tegola Server...${NC}"
+
+# Check for Tegola binary (both local and system-wide)
+TEGOLA_BIN=""
+if [ -f "./tegola" ]; then
+    TEGOLA_BIN="./tegola"
+elif command -v tegola >/dev/null 2>&1; then
+    TEGOLA_BIN="tegola"
+else
+    echo -e "${RED}❌ Tegola binary not found. Please install Tegola first.${NC}"
+    echo "Download from: https://github.com/go-spatial/tegola/releases"
+    echo "Or install system-wide and ensure it's in your PATH"
+    exit 1
+fi
+
+# Start Tegola with the found binary
+nohup $TEGOLA_BIN serve --config tegola_config.toml > logs/tegola.log 2>&1 &
+TEGOLA_PID=$!
+echo "Tegola PID: $TEGOLA_PID"
+
+# Wait for Tegola to start
+sleep 5
+
+# Check if Tegola is running
+if curl -s http://localhost:8081/capabilities > /dev/null; then
+    echo -e "${GREEN}✅ Tegola Server is running${NC}"
+else
+    echo -e "${RED}❌ Tegola Server failed to start${NC}"
+    kill $TEGOLA_PID 2>/dev/null || true
+    exit 1
+fi
 
 # Save PIDs for later management
 mkdir -p logs
 echo "$SEARCH_API_PID" > logs/search_api.pid
-# Remove any old Tegola PID file since we're not starting it
-rm -f logs/tegola.pid
+echo "$TEGOLA_PID" > logs/tegola.pid
 
-echo -e "${GREEN}🎉 Search API started successfully!${NC}"
+echo -e "${GREEN}🎉 All services started successfully!${NC}"
 echo "Search API: http://localhost:8000"
-echo "Tegola: Start manually with 'tegola serve --config=tegola_config.toml'"
+echo "Tegola: http://localhost:8081"
 echo ""
 echo "To stop services, run: scripts/stop_services.sh"
 
