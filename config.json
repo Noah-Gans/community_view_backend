@@ -26,7 +26,7 @@
     "teton_county_wy"
   ],
   "paths": {
-    "tile_cycle_dir": "tile_cycle",
+    "tile_processing_dir": "tile_processing",
     "search_api_dir": "search_api",
     "venv_path": "venv",
     "log_dir": "logs"
@@ -43,7 +43,7 @@
   },
   "health_checks": {
     "search_api_endpoint": "http://localhost:8000/health",
-    "tegola_endpoint": "http://localhost:8081/maps",
+    "tegola_endpoint": "http://localhost:8081/capabilities",
     "database_check": true
   }
 } 
